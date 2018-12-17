@@ -1,0 +1,3 @@
+= Crocket Overlay
+
+It is my personal gentoo overlay.
