@@ -28,7 +28,7 @@ src_install() {
 	doins deps.edn
 	doins example-deps.edn
 	insinto $CLOJURE_LIB_DIR/libexec
-	doins clojure-tools-1.9.0.381.jar
+	doins clojure-tools-${PV}.jar
 
 	dobin clojure
 	dobin clj
