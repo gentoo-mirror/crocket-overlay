@@ -4,7 +4,7 @@
 EAPI=7
 
 SRC_URI="https://github.com/jimsalterjrs/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 
 DESCRIPTION="Policy-driven snapshot management and replication tools."
 HOMEPAGE="https://github.com/jimsalterjrs/sanoid"
