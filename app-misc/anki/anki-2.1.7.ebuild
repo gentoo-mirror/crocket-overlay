@@ -6,7 +6,7 @@ EAPI=6
 PYTHON_COMPAT=( python3_6 )
 PYTHON_REQ_USE="sqlite"
 
-inherit eutils python-single-r1 xdg
+inherit python-single-r1 xdg
 
 DESCRIPTION="A spaced-repetition memory training program (flash cards)"
 HOMEPAGE="https://apps.ankiweb.net"
