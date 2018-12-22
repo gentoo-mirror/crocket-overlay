@@ -10,7 +10,7 @@ inherit python-single-r1 xdg
 
 DESCRIPTION="A spaced-repetition memory training program (flash cards)"
 HOMEPAGE="https://apps.ankiweb.net"
-LICENSE="GPL-3"
+LICENSE="AGPL-3+"
 DOCS="README.md README.development README.contributing README.md
 LICENSE LICENSE.logo"
 
