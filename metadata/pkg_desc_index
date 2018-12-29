@@ -1,5 +1,4 @@
 app-misc/anki 2.1.7: A spaced-repetition memory training program (flash cards)
-dev-lang/clojure 1.9.0.381: A dynamic programming language that targets the Java Virtual Machine
 dev-python/colour 0.1.5: Python color representations manipulation library (RGB, HSL, web, ...)
 dev-python/pyfiglet 0.8.0: Pure-python FIGlet implementation
 dev-python/termdown 1.14.1: Countdown timer and stopwatch in your terminal

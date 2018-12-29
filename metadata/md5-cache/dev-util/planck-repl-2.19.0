@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=>=dev-lang/clojure-1.9:= >=virtual/jdk-1.8 || ( sys-devel/gcc sys-devel/clang ) sys-devel/make dev-util/cmake virtual/pkgconfig =net-libs/webkit-gtk-2* dev-util/xxdi app-arch/unzip
+DESCRIPTION=A stand-alone ClojureScript REPL based on JavaScriptCore.
+EAPI=7
+HOMEPAGE=http://planck-repl.org/
+IUSE=fast
+KEYWORDS=~amd64
+LICENSE=EPL-1.0
+RDEPEND=>=dev-lang/clojure-1.9:=
+SLOT=0
+SRC_URI=https://github.com/planck-repl/planck/archive/2.19.0.tar.gz -> planck-2.19.0.tar.gz
+_md5_=0a62a74efba0f305d4fa87b204858c14
