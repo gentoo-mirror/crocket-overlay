@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=A dynamic programming language that targets the Java Virtual Machine
+EAPI=7
+HOMEPAGE=https://clojure.org/
+KEYWORDS=~amd64
+LICENSE=EPL-1.0 Apache-2.0
+RDEPEND=>=virtual/jre-1.8 app-misc/rlwrap
+SLOT=1.10
+SRC_URI=https://download.clojure.org/install/clojure-tools-1.10.0.403.tar.gz
+_md5_=b6cfa1323ac8860f52a2f775098e2f8a
