@@ -12,27 +12,27 @@ SLOT="1.10"
 KEYWORDS="~amd64"
 
 RDEPEND=">=virtual/jre-1.8
-app-misc/rlwrap"
+	app-misc/rlwrap"
 DEPEND=""
 
 S="${WORKDIR}/${PN}-tools"
 CLOJURE_LIB_DIR="/usr/share/${PN}"
 
 src_prepare() {
-  default
-  sed -i -e "s|PREFIX|$CLOJURE_LIB_DIR|g" clojure || die
+	default
+	sed -i -e "s|PREFIX|$CLOJURE_LIB_DIR|g" clojure || die
 }
 
 src_install() {
-  insinto $CLOJURE_LIB_DIR
-  doins deps.edn
-  doins example-deps.edn
-  insinto $CLOJURE_LIB_DIR/libexec
-  doins ${PN}-tools-${PV}.jar
+	insinto $CLOJURE_LIB_DIR
+	doins deps.edn
+	doins example-deps.edn
+	insinto $CLOJURE_LIB_DIR/libexec
+	doins ${PN}-tools-${PV}.jar
 
-  dobin clojure
-  dobin clj
+	dobin clojure
+	dobin clj
 
-  doman clojure.1
-  doman clj.1
+	doman clojure.1
+	doman clj.1
 }
