@@ -7,4 +7,4 @@ LICENSE=EPL-1.0 Apache-2.0
 RDEPEND=>=virtual/jre-1.8 app-misc/rlwrap
 SLOT=1.10
 SRC_URI=https://download.clojure.org/install/clojure-tools-1.10.0.403.tar.gz
-_md5_=b6cfa1323ac8860f52a2f775098e2f8a
+_md5_=a4be48b709d96b8da7482694336d36c8
