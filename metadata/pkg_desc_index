@@ -1,4 +1,4 @@
-app-misc/anki 2.1.7 2.1.8: A spaced-repetition memory training program (flash cards)
+app-misc/anki 2.1.7 2.1.8 2.1.11: A spaced-repetition memory training program (flash cards)
 dev-python/colour 0.1.5: Python color representations manipulation library (RGB, HSL, web, ...)
 dev-python/pyfiglet 0.8.0: Pure-python FIGlet implementation
 dev-python/termdown 1.14.1: Countdown timer and stopwatch in your terminal
