@@ -6,12 +6,10 @@ EAPI=7
 PYTHON_COMPAT=( python2_7 python{3_4,3_5,3_6} )
 inherit distutils-r1
 
-DESCRIPTION="Python color representations manipulation library (RGB, HSL, web, ...)"
-HOMEPAGE="https://github.com/vaab/colour"
+DESCRIPTION="Python implementation of routeros api"
+HOMEPAGE="https://github.com/luqasz/librouteros"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-2.0"
 SLOT="0"
-KEYWORDS="amd64"
-
-DEPEND="dev-python/d2to1[${PYTHON_USEDEP}]"
+KEYWORDS="~amd64"
