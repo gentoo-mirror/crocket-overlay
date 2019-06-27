@@ -10,6 +10,6 @@ DESCRIPTION="Python implementation of routeros api"
 HOMEPAGE="https://github.com/luqasz/librouteros"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-2.0"
+LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64"
