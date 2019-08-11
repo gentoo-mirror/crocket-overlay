@@ -2,7 +2,25 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-misc/anki:recording - Enable support for audio recording
+app-misc/anki:sound - Enable support for adding sound to cards
+dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
+dev-util/planck-repl:fast - Fast compilation in exchange for slower speed.
+media-libs/zita-alsa-pcmi:tools - Install executables
+media-libs/zita-resampler:tools - Install executables
+media-sound/audacity:id3tag - Enables ID3 tagging with id3tag library
+media-sound/audacity:lv2 - Add support for Ladspa V2
+media-sound/audacity:midi - Enables MIDI support
+media-sound/audacity:portmixer - Enable the internal portmixer feature
+media-sound/audacity:sbsms - Enables sbsms library support for slower, more accurate pitch and tempo changing
+media-sound/audacity:soundtouch - Enables soundtouch library support for pitch and tempo changing
+media-sound/audacity:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
+media-sound/audacity:vamp - Enables vamp plugins support (Audio analysing plugins)
+media-sound/audacity:vst - Enable VST plugin support
+media-sound/pyradio:mplayer - 
+media-sound/pyradio:mpv - 
+media-sound/pyradio:vlc - 
 sys-fs/sanoid:lzop - 
 sys-fs/sanoid:mbuffer - 
 sys-fs/sanoid:pv - 
