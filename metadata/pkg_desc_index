@@ -5,6 +5,7 @@ dev-python/colour 0.1.5: Python color representations manipulation library (RGB,
 dev-python/i3pystatus 9999: A complete replacement for i3status with many status modules
 dev-python/librouteros 2.2.0: Python implementation of routeros api
 dev-python/pyfiglet 0.8.0: Pure-python FIGlet implementation
+dev-python/python-osc 1.7.2: Open Sound Control server and client in pure python
 dev-python/td-watson 1.6.0: A wonderful CLI to track your time!
 dev-python/termdown 1.14.1: Countdown timer and stopwatch in your terminal
 dev-util/planck-repl 2.19.0: A stand-alone ClojureScript REPL based on JavaScriptCore.
@@ -13,6 +14,7 @@ media-fonts/nerd-fonts 2.0.0: Collection of fonts that are patched to include a 
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-sound/audacity 2.3.2: Free crossplatform audio editor
+media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 sys-apps/flashbench 20161130: Testing tool for managed flash memory devices
