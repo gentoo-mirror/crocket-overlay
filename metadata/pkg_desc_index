@@ -1,4 +1,5 @@
 app-misc/anki 2.1.14: A spaced-repetition memory training program (flash cards)
+app-misc/lf 13: a terminal file manager written in Go
 dev-lang/clojure 1.10.0.403: A dynamic programming language that targets the Java Virtual Machine
 dev-python/JACK-Client 0.4.6: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/colour 0.1.5: Python color representations manipulation library (RGB, HSL, web, ...)
