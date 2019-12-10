@@ -30,7 +30,7 @@ src_compile() {
 
 src_install() {
 	dobin lf
-	doinstalldocs
+	einstalldocs
 
 	insinto /usr/share/${PN}
 	doins etc/lfcd.sh
