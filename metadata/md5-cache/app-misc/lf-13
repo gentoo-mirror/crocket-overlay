@@ -10,4 +10,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/gokcehan/lf/archive/r13.tar.gz https://github.com/mattn/go-runewidth/archive/v0.0.4.tar.gz -> github.com-mattn-go-runewidth-v0.0.4.tar.gz https://github.com/nsf/termbox-go/archive/288510b9734e30e7966ec2f22b87c5f8e67345e3.tar.gz -> github.com-nsf-termbox-go-288510b9734e30e7966ec2f22b87c5f8e67345e3.tar.gz
 _eclasses_=go-module	ab2b956f1b3888b8418581b8662fe211
-_md5_=93ddefc4fe3ace25a83a21d44e22704b
+_md5_=4eba2f3f6b6c6fdd98c340a85f07071e
