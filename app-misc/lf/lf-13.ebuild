@@ -11,7 +11,7 @@ EGO_VENDOR=(
 	"github.com/mattn/go-runewidth v0.0.4"
 	"github.com/nsf/termbox-go 288510b9734e30e7966ec2f22b87c5f8e67345e3"
 )
-SRC_URI="https://github.com/gokcehan/lf/archive/r${PV}.tar.gz
+SRC_URI="https://github.com/gokcehan/lf/archive/r${PV}.tar.gz -> ${P}.tar.gz
 	$(go-module_vendor_uris)"
 
 LICENSE="MIT"
