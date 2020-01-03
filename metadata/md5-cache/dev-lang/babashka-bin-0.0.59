@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=A clojure interpreter
+EAPI=7
+HOMEPAGE=https://github.com/borkdude/babashka
+KEYWORDS=~amd64
+LICENSE=EPL-1.0
+SLOT=0
+SRC_URI=https://github.com/borkdude/babashka/releases/download/v0.0.59/babashka-0.0.59-linux-amd64.zip -> babashka-bin-0.0.59.zip
+_md5_=ccc08910b679a4959eea59e3b282e14b
