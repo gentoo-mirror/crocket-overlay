@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit multilib
+inherit meson
 
 DESCRIPTION="A functional and imperative language for scripting and embedding"
 HOMEPAGE="https://janet-lang.org/"
@@ -16,9 +16,3 @@ KEYWORDS="~amd64"
 DEPEND=""
 RDEPEND=""
 DOCS=( CHANGELOG.md CONTRIBUTING.md README.md )
-PATCHES=( ${FILESDIR}/Makefile.patch )
-
-src_install() {
-	einstalldocs
-	emake PREFIX="/usr" LIBDIR="/usr/$(get_libdir)" DESTDIR="${D}" install
-}
