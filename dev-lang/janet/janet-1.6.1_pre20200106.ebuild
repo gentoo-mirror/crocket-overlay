@@ -7,7 +7,7 @@ inherit meson
 
 DESCRIPTION="A functional and imperative language for scripting and embedding"
 HOMEPAGE="https://janet-lang.org/"
-GIT_COMMIT="212aceedc6b10c002160ce428778f211c2022171"
+GIT_COMMIT="17e47a798c8f9f7164feee123763b2963f5db30c"
 SRC_URI="https://github.com/janet-lang/janet/archive/${GIT_COMMIT}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
