@@ -14,7 +14,7 @@ LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND=">=dev-janet/process-0_alpha20200103"
+DEPEND=""
 RDEPEND=">=dev-janet/process-0_alpha20200103"
 S="${WORKDIR}/janet-${PN}-${GIT_COMMIT}"
 DOCS="README.md"

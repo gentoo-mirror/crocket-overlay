@@ -14,11 +14,7 @@ RDEPEND=">=dev-lang/janet-1.6.0"
 # @FUNCTION: get_janet_path
 # @DESCRIPTION: Get JANET_PATH for installation
 get_janet_path() {
-	if [ -n "$JANET_PATH" ]; then
-		echo "${D}${JANET_PATH}"
-	else
-		echo "${D}/usr/$(get_libdir)/janet"
-	fi
+	echo "${D}$(janet -e '(print (dyn :syspath))')"
 }
 
 # @FUNCTION: ejpm
