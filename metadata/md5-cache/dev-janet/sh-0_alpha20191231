@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install
-DEPEND=>=dev-janet/process-0_alpha20200103 >=dev-lang/janet-1.6.0
+DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=A janet module for shell functions.
 EAPI=7
 HOMEPAGE=https://github.com/andrewchambers/janet-process
@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=>=dev-janet/process-0_alpha20200103 >=dev-lang/janet-1.6.0
 SLOT=0
 SRC_URI=https://github.com/andrewchambers/janet-sh/archive/5d5c44cf37f078f57f42882d562d81641f0304d1.tar.gz -> janet-sh-0_alpha20191231.tar.gz
-_eclasses_=janet-module	e12b2ff8d79f4f7f68e3d6d780ab1a83
-_md5_=02da0546282c36f45c5e969285b677d8
+_eclasses_=janet-module	4e0e6c0c1b4000a8ff919dd8833cc958
+_md5_=d88db460d6fdb3563b8dafbb87ce5a7b
