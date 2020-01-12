@@ -11,9 +11,9 @@ EXPORT_FUNCTIONS src_compile src_install
 DEPEND=">=dev-lang/janet-1.6.0"
 RDEPEND=">=dev-lang/janet-1.6.0"
 
-# @FUNCTION: get_janet_path
+# @FUNCTION: janet-module_janet_path
 # @DESCRIPTION: Get JANET_PATH for installation
-get_janet_path() {
+janet-module_janet_path() {
 	echo "${D}$(janet -e '(print (dyn :syspath))')"
 }
 
@@ -21,7 +21,7 @@ get_janet_path() {
 # @USAGE: <arguments to jpm>
 # @DESCRIPTION: Call jpm with JANET_PATH inside installation directory
 ejpm() {
-	env JANET_PATH="$(get_janet_path)" jpm "$@"
+	env JANET_PATH="$(janet-module_janet_path)" jpm "$@"
 }
 
 janet-module_src_compile() {
@@ -29,7 +29,7 @@ janet-module_src_compile() {
 }
 
 janet-module_src_install() {
-	mkdir -p "$(get_janet_path)"
+	mkdir -p "$(janet-module_janet_path)"
 	ejpm install
 	einstalldocs
 }
