@@ -19,9 +19,10 @@ janet-module_janet_path() {
 
 # @FUNCTION: ejpm
 # @USAGE: <arguments to jpm>
-# @DESCRIPTION: Call jpm with JANET_PATH inside installation directory
+# @DESCRIPTION: Call jpm with various paths set appropriately.
 ejpm() {
-	env JANET_PATH="$(janet-module_janet_path)" jpm "$@"
+	jpm --modpath="$(janet-module_janet_path)" \
+		--binpath="${D}/usr/bin" "$@"
 }
 
 janet-module_src_compile() {
