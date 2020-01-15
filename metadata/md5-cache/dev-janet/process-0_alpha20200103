@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=>=dev-lang/janet-1.6.0
 SLOT=0
 SRC_URI=https://github.com/andrewchambers/janet-process/archive/0066875092ef5a88025d0d3d1b53fa6ccc58d2c6.tar.gz -> janet-process-0_alpha20200103.tar.gz
-_eclasses_=janet-module	b5dd8bc3b55cca27174c44b7d972969d
+_eclasses_=janet-module	8a649c820ef3e9a53a64997068eb32b7
 _md5_=a27ab1d1d1c708d48ee932b6bba45706

@@ -1,6 +1,7 @@
 app-misc/anki 2.1.14: A spaced-repetition memory training program (flash cards)
 app-misc/lf 13: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
+dev-janet/argparse 0_pre20191110: A moderately opinionated argument parser for janet.
 dev-janet/process 0_alpha20200103: A janet module for running child processes.
 dev-janet/sh 0_alpha20191231: A janet module for shell functions.
 dev-lang/babashka-bin 0.0.59: A clojure interpreter
