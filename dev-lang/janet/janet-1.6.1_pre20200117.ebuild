@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="app-misc/rlwrap"
 DOCS=( CHANGELOG.md CONTRIBUTING.md README.md examples )
 S="${WORKDIR}/${PN}-${GIT_COMMIT}"
 
