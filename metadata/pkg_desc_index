@@ -3,7 +3,7 @@ app-misc/lf 13: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 dev-janet/argparse 0_pre20191110: A moderately opinionated argument parser for janet.
 dev-janet/process 0_alpha20200117: A janet module for running child processes.
-dev-janet/repl-tools 0.1: a set of functions for janet REPL.
+dev-janet/repl-tools 0.2: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200118: A janet REPL using readline.
 dev-janet/sh 0_alpha20191231: A janet module for shell functions.
 dev-lang/babashka-bin 0.0.59: A clojure interpreter
