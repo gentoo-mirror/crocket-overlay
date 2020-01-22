@@ -7,7 +7,7 @@ inherit janet-module
 
 DESCRIPTION="A janet REPL using readline."
 HOMEPAGE="https://github.com/andrewchambers/janet-rlrepl"
-GIT_COMMIT="046fbcd1b7e8b290203a04d88e90cee9a7e0e2b5"
+GIT_COMMIT="b97829e575ed551d5c7f9f299b2fe756f540833c"
 SRC_URI="https://github.com/andrewchambers/janet-rlrepl/archive/${GIT_COMMIT}.tar.gz -> janet-${P}.tar.gz"
 
 LICENSE="GPL-3"
