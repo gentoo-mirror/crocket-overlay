@@ -7,6 +7,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=sys-libs/readline >=dev-lang/janet-1.6.0
 SLOT=0
-SRC_URI=https://github.com/andrewchambers/janet-rlrepl/archive/046fbcd1b7e8b290203a04d88e90cee9a7e0e2b5.tar.gz -> janet-rlrepl-0_alpha20200118.tar.gz
+SRC_URI=https://github.com/andrewchambers/janet-rlrepl/archive/b97829e575ed551d5c7f9f299b2fe756f540833c.tar.gz -> janet-rlrepl-0_alpha20200119.tar.gz
 _eclasses_=janet-module	8a649c820ef3e9a53a64997068eb32b7
-_md5_=717ce648f5f4a6e19bc12b151f11cbaa
+_md5_=d8caf5f7166aed7ef75f60af74c2cddf
