@@ -5,16 +5,16 @@ EAPI=7
 
 inherit janet-module
 
-DESCRIPTION="A janet module for running child processes."
+DESCRIPTION="A janet module for shell functions."
 HOMEPAGE="https://github.com/andrewchambers/janet-process"
-GIT_COMMIT="0a84e70bf7219c01d3cc1bb07cda86c47fc58ebd"
-SRC_URI="https://github.com/andrewchambers/janet-process/archive/${GIT_COMMIT}.tar.gz -> janet-${P}.tar.gz"
+GIT_COMMIT="e46e55ca62b5f8239e28b130fb12ec3c52699f7b"
+SRC_URI="https://github.com/andrewchambers/janet-sh/archive/${GIT_COMMIT}.tar.gz -> janet-${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
 
 DEPEND=""
-RDEPEND=""
+RDEPEND=">=dev-janet/process-0_alpha20200103"
 S="${WORKDIR}/janet-${PN}-${GIT_COMMIT}"
 DOCS="README.md"
