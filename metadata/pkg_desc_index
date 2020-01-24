@@ -2,6 +2,7 @@ app-misc/anki 2.1.14: A spaced-repetition memory training program (flash cards)
 app-misc/lf 13: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 dev-janet/argparse 0_pre20191110: A moderately opinionated argument parser for janet.
+dev-janet/path 0_pre20191213: Simple path manipulation module for Janet.
 dev-janet/process 0_alpha20200121: A janet module for running child processes.
 dev-janet/repl-tools 0.2: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
