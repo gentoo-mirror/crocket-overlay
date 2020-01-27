@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,7 +10,7 @@ inherit desktop python-single-r1 xdg
 
 DESCRIPTION="A spaced-repetition memory training program (flash cards)"
 HOMEPAGE="https://apps.ankiweb.net"
-SRC_URI="https://apps.ankiweb.net/downloads/current/${P}-source.tgz -> ${P}.tgz"
+SRC_URI="https://github.com/ankitects/anki/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="AGPL-3+"
 SLOT="0"
@@ -48,6 +48,7 @@ src_prepare() {
 	default
 	sed -i -e "s/updates=True/updates=False/" \
 		aqt/profiles.py || die
+	./tools/build_ui.sh
 }
 
 src_compile() {
@@ -75,7 +76,7 @@ src_install() {
 
 	# Localization files go into the anki directory:
 	python_moduleinto anki
-	python_domodule locale
+	#python_domodule locale
 
 	# not sure if this is correct, but
 	# site-packages/aqt/mediasrv.py wants the directory
