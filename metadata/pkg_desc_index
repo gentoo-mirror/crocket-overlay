@@ -7,6 +7,7 @@ dev-janet/process 0_alpha20200121: A janet module for running child processes.
 dev-janet/repl-tools 0.2: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0_alpha20200122: A janet module for shell functions.
+dev-janet/utf8 0.3: Utility functions for UTF-8
 dev-lang/babashka-bin 0.0.59: A clojure interpreter
 dev-lang/clojure-bin 1.10.1.492: A dynamic programming language that targets the Java Virtual Machine
 dev-lang/janet 1.6.1_pre20200122: A functional and imperative language for scripting and embedding
