@@ -23,7 +23,7 @@ dev-python/td-watson 1.8.0: A wonderful CLI to track your time!
 dev-python/termdown 1.16.0: Countdown timer and stopwatch in your terminal
 media-fonts/koruri 20180915: Japanese TrueType font based on M+ outline fonts and Open Sans
 media-fonts/nerd-fonts 2.0.0: Collection of fonts that are patched to include a high number of glyphs (icons).
-media-gfx/yacreader 9.6.2: A comic reader for reading and managing your digital comic collection
+media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-sound/audacity 2.3.2: Free crossplatform audio editor
