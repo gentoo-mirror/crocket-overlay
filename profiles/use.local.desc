@@ -23,7 +23,6 @@ media-sound/cantata:cdio - Use dev-libs/libcdio-paranoia for CD support (instead
 media-sound/cantata:http-server - Enable internal HTTP server to play non-MPD files
 media-sound/cantata:replaygain - Enable ReplayGain support, for relative volume adjustments
 media-sound/cantata:streaming - Enable playback of MPD HTTP streams using LibVLC (media-video/vlc)
-media-sound/mpd:adplug - Enable the AdPlug decoder plugin
 media-sound/mpd:cdio - Use libcdio for ISO9660 parsing support
 media-sound/mpd:curl - Support for web stream listening
 media-sound/mpd:eventfd - Use the eventfd function in MPD's event loop
