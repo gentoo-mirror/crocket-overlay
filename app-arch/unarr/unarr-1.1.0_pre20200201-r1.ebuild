@@ -6,7 +6,7 @@ EAPI=7
 inherit cmake-utils
 
 DESCRIPTION="A lightweight decompression library with support for rar, tar and zip archives"
-HOMEPAGE="http://github.com/selmf/unarr"
+HOMEPAGE="https://github.com/selmf/unarr"
 GIT_COMMIT="7fa227366e8a3ff83eae6f9734644f4d5f257f39"
 SRC_URI="https://github.com/selmf/unarr/archive/${GIT_COMMIT}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${PN}-${GIT_COMMIT}"
