@@ -1,5 +1,5 @@
 app-arch/unarr 1.1.0_pre20200201: A lightweight decompression library with support for rar, tar and zip archives
-app-misc/anki 2.1.16: A spaced-repetition memory training program (flash cards)
+app-misc/anki 2.1.16-r1: A spaced-repetition memory training program (flash cards)
 app-misc/lf 13: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 dev-janet/argparse 0_pre20191110: A moderately opinionated argument parser for janet.
