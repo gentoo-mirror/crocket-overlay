@@ -6,7 +6,6 @@
     <name>Yevgeniy Baklanov</name>
   </maintainer>
   <use>
-    <flag name="adplug">Enable the AdPlug decoder plugin</flag>
     <flag name="cdio">Use libcdio for ISO9660 parsing support</flag>
     <flag name="curl">Support for web stream listening</flag>
     <flag name="eventfd">Use the eventfd function in MPD's event loop</flag>

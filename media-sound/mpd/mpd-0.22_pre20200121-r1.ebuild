@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-inherit eutils flag-o-matic linux-info multilib systemd user meson
+inherit eutils flag-o-matic linux-info multilib systemd meson
 
 DESCRIPTION="The Music Player Daemon (mpd)"
 HOMEPAGE="http://www.musicpd.org https://github.com/MusicPlayerDaemon/MPD"
@@ -13,7 +13,7 @@ S="${WORKDIR}/MPD-${GIT_COMMIT}"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="adplug +alsa ao audiofile bzip2 cdio +curl debug +eventfd expat faad
+IUSE="+alsa ao audiofile bzip2 cdio +curl debug +eventfd expat faad
 	+fifo +ffmpeg flac fluidsynth gme +icu +id3tag +inotify +ipv6 jack
 	lame mms libav libmpdclient libsamplerate libsoxr +mad mikmod modplug
 	mpg123 musepack +network nfs ogg openal opus oss pipe pulseaudio recorder
@@ -21,7 +21,7 @@ IUSE="adplug +alsa ao audiofile bzip2 cdio +curl debug +eventfd expat faad
 	unicode upnp vorbis wavpack wildmidi zeroconf zip zlib webdav"
 
 OUTPUT_PLUGINS="alsa ao fifo jack network openal oss pipe pulseaudio recorder"
-DECODER_PLUGINS="adplug audiofile faad ffmpeg flac fluidsynth mad mikmod
+DECODER_PLUGINS="audiofile faad ffmpeg flac fluidsynth mad mikmod
 	modplug mpg123 musepack ogg flac sid vorbis wavpack wildmidi"
 ENCODER_PLUGINS="audiofile flac lame twolame vorbis"
 
@@ -35,7 +35,6 @@ REQUIRED_USE="
 	webdav? ( curl expat )"
 
 CDEPEND="!<sys-cluster/mpich2-1.4_rc2
-	adplug? ( media-libs/adplug )
 	alsa? (
 		media-sound/alsa-utils
 		media-libs/alsa-lib
@@ -179,7 +178,6 @@ src_configure() {
 		$(meson_enable libmpdclient)
 		$(meson_enable expat)
 		$(meson_enable upnp)
-		$(meson_enable adplug)
 		$(meson_enable alsa)
 		$(meson_enable ao)
 		$(meson_enable audiofile)
