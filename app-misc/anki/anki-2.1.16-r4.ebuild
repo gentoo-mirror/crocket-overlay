@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6,7} )
 PYTHON_REQ_USE="sqlite"
 
 inherit desktop python-single-r1 xdg
@@ -37,7 +37,7 @@ RDEPEND="${PYTHON_DEPS}
 	)
 "
 DEPEND="${RDEPEND}
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
+	test? ( $(python_gen_cond_dep 'dev-python/nose[${PYTHON_MULTI_USEDEP}]') )
 "
 
 PATCHES=( "${FILESDIR}"/${PN}-2.1.0_beta25-web-folder.patch )
