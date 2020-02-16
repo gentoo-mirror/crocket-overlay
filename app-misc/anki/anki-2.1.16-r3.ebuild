@@ -3,10 +3,10 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_6 )
+PYTHON_COMPAT=( python3_{6,7,8} )
 PYTHON_REQ_USE="sqlite"
 
-inherit desktop distutils-r1 xdg
+inherit desktop python-single-r1 xdg
 
 DESCRIPTION="A spaced-repetition memory training program (flash cards)"
 HOMEPAGE="https://apps.ankiweb.net"
@@ -19,14 +19,16 @@ IUSE="latex +recording +sound test"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
-	dev-python/PyQt5[gui,svg,webkit,widgets,${PYTHON_USEDEP}]
-	>=dev-python/httplib2-0.7.4[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup:4[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/send2trash[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+		dev-python/PyQt5[gui,svg,webkit,widgets,${PYTHON_MULTI_USEDEP}]
+		>=dev-python/httplib2-0.7.4[${PYTHON_MULTI_USEDEP}]
+		dev-python/beautifulsoup:4[${PYTHON_MULTI_USEDEP}]
+		dev-python/decorator[${PYTHON_MULTI_USEDEP}]
+		dev-python/markdown[${PYTHON_MULTI_USEDEP}]
+		dev-python/requests[${PYTHON_MULTI_USEDEP}]
+		dev-python/send2trash[${PYTHON_MULTI_USEDEP}]
+		dev-python/jsonschema[${PYTHON_MULTI_USEDEP}]
+	')
 	recording? ( media-sound/lame )
 	sound? ( media-video/mpv )
 	latex? (
@@ -39,10 +41,6 @@ DEPEND="${RDEPEND}
 "
 
 PATCHES=( "${FILESDIR}"/${PN}-2.1.0_beta25-web-folder.patch )
-
-pkg_setup() {
-	python-single-r1_pkg_setup
-}
 
 src_prepare() {
 	default
