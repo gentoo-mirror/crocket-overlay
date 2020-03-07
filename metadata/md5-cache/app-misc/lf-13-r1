@@ -1,4 +1,4 @@
-BDEPEND=>=dev-lang/go-1.12
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
 DEFINED_PHASES=compile install postinst unpack
 DEPEND=dev-lang/go
 DESCRIPTION=a terminal file manager written in Go
@@ -9,5 +9,5 @@ LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/gokcehan/lf/archive/r13.tar.gz -> lf-13.tar.gz https://github.com/mattn/go-runewidth/archive/v0.0.4.tar.gz -> github.com-mattn-go-runewidth-v0.0.4.tar.gz https://github.com/nsf/termbox-go/archive/288510b9734e30e7966ec2f22b87c5f8e67345e3.tar.gz -> github.com-nsf-termbox-go-288510b9734e30e7966ec2f22b87c5f8e67345e3.tar.gz
-_eclasses_=go-module	2e23fcc4b7fb60746e74822d4ca3a669
+_eclasses_=go-module	7b83d59124252e3e756e1071c0f06678
 _md5_=37166a21b61efe993b1bf7f2a24a2ff0
