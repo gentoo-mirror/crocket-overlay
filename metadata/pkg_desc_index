@@ -36,6 +36,6 @@ media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspi
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 sys-apps/flashbench 20161130: Testing tool for managed flash memory devices
-sys-fs/sanoid 2.0.1: Policy-driven snapshot management and replication tools.
+sys-fs/sanoid 2.0.3: Policy-driven snapshot management and replication tools.
 x11-misc/dmenu 4.9_p20190303: a generic, highly customizable, and efficient menu for the X Window System
 x11-misc/xiccd 9999: A desktop environment-independent bridge between colord and X

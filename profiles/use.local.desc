@@ -65,7 +65,3 @@ media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/freque
 media-sound/pyradio:mplayer - 
 media-sound/pyradio:mpv - 
 media-sound/pyradio:vlc - 
-sys-fs/sanoid:lzop - 
-sys-fs/sanoid:mbuffer - 
-sys-fs/sanoid:pv - 
-sys-fs/sanoid:ssh - 
