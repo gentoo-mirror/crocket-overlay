@@ -5,10 +5,4 @@
     Sanoid is a policy-driven snapshot management tool for ZFS filesystems.
     When combined with the Linux KVM hypervisor, you can use it to make your systems functionally immortal.
   </longdescription>
-  <use>
-    <flag name="pv"></flag>
-    <flag name="ssh"></flag>
-    <flag name="lzop"></flag>
-    <flag name="mbuffer"></flag>
-  </use>
 </pkgmetadata>
