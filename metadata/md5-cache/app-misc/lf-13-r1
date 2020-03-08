@@ -9,5 +9,5 @@ LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/gokcehan/lf/archive/r13.tar.gz -> lf-13.tar.gz https://github.com/mattn/go-runewidth/archive/v0.0.4.tar.gz -> github.com-mattn-go-runewidth-v0.0.4.tar.gz https://github.com/nsf/termbox-go/archive/288510b9734e30e7966ec2f22b87c5f8e67345e3.tar.gz -> github.com-nsf-termbox-go-288510b9734e30e7966ec2f22b87c5f8e67345e3.tar.gz
-_eclasses_=go-module	9c89b9b23b308aef82637272a26781f7
+_eclasses_=go-module	fed1f8fd90b8957c6cb45f66536a3ee0
 _md5_=37166a21b61efe993b1bf7f2a24a2ff0
