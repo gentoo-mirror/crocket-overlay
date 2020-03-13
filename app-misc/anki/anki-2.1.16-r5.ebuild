@@ -20,7 +20,8 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
 	$(python_gen_cond_dep '
-		dev-python/PyQt5[gui,svg,webkit,widgets,${PYTHON_MULTI_USEDEP}]
+		dev-python/PyQt5[gui,svg,widgets,${PYTHON_MULTI_USEDEP}]
+		dev-python/PyQtWebEngine[${PYTHON_MULTI_USEDEP}]
 		>=dev-python/httplib2-0.7.4[${PYTHON_MULTI_USEDEP}]
 		dev-python/beautifulsoup:4[${PYTHON_MULTI_USEDEP}]
 		dev-python/decorator[${PYTHON_MULTI_USEDEP}]
