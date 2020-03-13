@@ -1,5 +1,5 @@
 app-arch/unarr 1.1.0_pre20200201-r1: A lightweight decompression library with support for rar, tar and zip archives
-app-misc/anki 2.1.16-r4: A spaced-repetition memory training program (flash cards)
+app-misc/anki 2.1.16-r5: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 13-r1: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
@@ -15,8 +15,8 @@ dev-lang/clojure-bin 1.10.1.492: A dynamic programming language that targets the
 dev-lang/janet 1.7.0: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.14.0 0.14.1_p20200112: a small Clojure interpreter and linter written in Go.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
-dev-python/colour 0.1.5-r2: Python color representations manipulation library (RGB, HSL, web, ...)
-dev-python/i3pystatus 3.35_p20200108 9999: A complete replacement for i3status with many status modules
+dev-python/colour 0.1.5-r3: Python color representations manipulation library (RGB, HSL, web, ...)
+dev-python/i3pystatus 3.35_p20200108-r1 9999: A complete replacement for i3status with many status modules
 dev-python/librouteros 3.0.0: Python implementation of routeros api
 dev-python/pyfiglet 0.8.0-r1: Pure-python FIGlet implementation
 dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
