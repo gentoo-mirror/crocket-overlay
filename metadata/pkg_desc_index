@@ -12,8 +12,8 @@ dev-janet/sh 0_alpha20200122: A janet module for shell functions.
 dev-janet/utf8 0.3: Utility functions for UTF-8
 dev-lang/babashka-bin 0.0.59: A clojure interpreter
 dev-lang/clojure-bin 1.10.1.492: A dynamic programming language that targets the Java Virtual Machine
-dev-lang/janet 1.7.0: A functional and imperative language for scripting and embedding
-dev-lang/joker 0.14.0 0.14.1_p20200112: a small Clojure interpreter and linter written in Go.
+dev-lang/janet 1.8.1: A functional and imperative language for scripting and embedding
+dev-lang/joker 0.15.1: a small Clojure interpreter and linter written in Go.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/colour 0.1.5-r3: Python color representations manipulation library (RGB, HSL, web, ...)
 dev-python/i3pystatus 3.35_p20200108-r1 9999: A complete replacement for i3status with many status modules
