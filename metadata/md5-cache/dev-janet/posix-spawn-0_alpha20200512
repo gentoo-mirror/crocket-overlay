@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=>=dev-lang/janet-1.6.0
+DESCRIPTION=A process API for janet wrapping posix-spawn(3).
+EAPI=7
+HOMEPAGE=https://github.com/andrewchambers/janet-posix-spawn
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=>=dev-lang/janet-1.6.0
+SLOT=0
+SRC_URI=https://github.com/andrewchambers/janet-posix-spawn/archive/b744ba7231d47f2024f3ddd8f31bf653a2ee3e50.tar.gz -> janet-posix-spawn-0_alpha20200512.tar.gz
+_eclasses_=janet-module	8a649c820ef3e9a53a64997068eb32b7
+_md5_=a349379452f18049333b22ffa7d14fd6

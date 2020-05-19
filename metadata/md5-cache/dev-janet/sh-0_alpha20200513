@@ -5,8 +5,8 @@ EAPI=7
 HOMEPAGE=https://github.com/andrewchambers/janet-process
 KEYWORDS=~amd64
 LICENSE=public-domain
-RDEPEND=>=dev-janet/process-0_alpha20200103 >=dev-lang/janet-1.6.0
+RDEPEND=>=dev-janet/posix-spawn-0_alpha20200512 >=dev-lang/janet-1.6.0
 SLOT=0
-SRC_URI=https://github.com/andrewchambers/janet-sh/archive/e46e55ca62b5f8239e28b130fb12ec3c52699f7b.tar.gz -> janet-sh-0_alpha20200122.tar.gz
+SRC_URI=https://github.com/andrewchambers/janet-sh/archive/4226a4cae548fde38358aa1fdb6d6a90bf5fe175.tar.gz -> janet-sh-0_alpha20200513.tar.gz
 _eclasses_=janet-module	8a649c820ef3e9a53a64997068eb32b7
-_md5_=33cdae5e3a6e6b01f6607840347e9d78
+_md5_=c7a5ef7b276fa421a34877419da11095
