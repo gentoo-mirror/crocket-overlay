@@ -7,7 +7,7 @@ inherit janet-module
 
 DESCRIPTION="A janet module for shell functions."
 HOMEPAGE="https://github.com/andrewchambers/janet-process"
-GIT_COMMIT="e46e55ca62b5f8239e28b130fb12ec3c52699f7b"
+GIT_COMMIT="4226a4cae548fde38358aa1fdb6d6a90bf5fe175"
 SRC_URI="https://github.com/andrewchambers/janet-sh/archive/${GIT_COMMIT}.tar.gz -> janet-${P}.tar.gz"
 
 LICENSE="public-domain"
@@ -15,6 +15,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 DEPEND=""
-RDEPEND=">=dev-janet/process-0_alpha20200103"
+RDEPEND=">=dev-janet/posix-spawn-0_alpha20200512"
 S="${WORKDIR}/janet-${PN}-${GIT_COMMIT}"
 DOCS="README.md"
