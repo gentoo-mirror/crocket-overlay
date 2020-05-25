@@ -7,22 +7,27 @@ inherit go-module
 
 DESCRIPTION="a terminal file manager written in Go"
 HOMEPAGE="https://github.com/gokcehan/lf"
-EGO_VENDOR=(
+EGO_SUM=(
+	"github.com/doronbehar/termbox-go v0.0.0-20191006141301-8c9470559e05"
+	"github.com/doronbehar/termbox-go v0.0.0-20191006141301-8c9470559e05/go.mod"
 	"github.com/mattn/go-runewidth v0.0.4"
-	"github.com/nsf/termbox-go 288510b9734e30e7966ec2f22b87c5f8e67345e3"
+	"github.com/mattn/go-runewidth v0.0.4/go.mod"
+	"gopkg.in/djherbis/times.v1 v1.2.0"
+	"gopkg.in/djherbis/times.v1 v1.2.0/go.mod"
 )
+go-module_set_globals
 SRC_URI="https://github.com/gokcehan/lf/archive/r${PV}.tar.gz -> ${P}.tar.gz
-	$(go-module_vendor_uris)"
+	${EGO_SUM_SRC_URI}"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND="dev-lang/go"
 RDEPEND=""
 S="${WORKDIR}/${PN}-r${PV}"
-DOCS="LICENSE README.md etc/lfrc.example"
+DOCS="README.md etc/lfrc.example"
 
 src_compile() {
 	go build || die
