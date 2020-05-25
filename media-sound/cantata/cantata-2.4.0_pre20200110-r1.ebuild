@@ -14,7 +14,7 @@ SRC_URI="https://github.com/CDrummond/cantata/archive/${GIT_COMMIT}.tar.gz -> ${
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="cdda cddb cdio http-server libav mtp musicbrainz replaygain streaming taglib udisks zeroconf"
+IUSE="cdda cddb cdio http-server mtp musicbrainz replaygain streaming taglib udisks zeroconf"
 REQUIRED_USE="
 	?? ( cdda cdio )
 	cdda? ( udisks || ( cddb musicbrainz ) )
@@ -47,8 +47,7 @@ COMMON_DEPEND="
 	replaygain? (
 		media-libs/libebur128
 		media-sound/mpg123
-		libav? ( media-video/libav:= )
-		!libav? ( media-video/ffmpeg:0= )
+		media-video/ffmpeg:0=
 	)
 	streaming? ( dev-qt/qtmultimedia:5 )
 	taglib? (

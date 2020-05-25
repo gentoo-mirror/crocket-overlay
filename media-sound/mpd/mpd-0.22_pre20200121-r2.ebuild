@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="+alsa ao audiofile bzip2 cdio +curl debug +eventfd expat faad
 	+fifo +ffmpeg flac fluidsynth gme +icu +id3tag +inotify +ipv6 jack
-	lame mms libav libmpdclient libsamplerate libsoxr +mad mikmod modplug
+	lame mms libmpdclient libsamplerate libsoxr +mad mikmod modplug
 	mpg123 musepack +network nfs ogg openal opus oss pipe pulseaudio recorder
 	samba selinux sid +signalfd sndfile soundcloud sqlite systemd tcpd twolame
 	unicode upnp vorbis wavpack wildmidi zeroconf zip zlib webdav"
@@ -46,10 +46,7 @@ CDEPEND="!<sys-cluster/mpich2-1.4_rc2
 	curl? ( net-misc/curl )
 	expat? ( dev-libs/expat )
 	faad? ( media-libs/faad2 )
-	ffmpeg? (
-		libav? ( media-video/libav:0= )
-		!libav? ( media-video/ffmpeg:0= )
-	)
+	ffmpeg? ( media-video/ffmpeg:0= )
 	flac? ( media-libs/flac[ogg?] )
 	fluidsynth? ( media-sound/fluidsynth )
 	gme? ( >=media-libs/game-music-emu-0.6.0_pre20120802 )
