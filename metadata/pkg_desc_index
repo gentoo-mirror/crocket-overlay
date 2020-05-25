@@ -31,16 +31,17 @@ media-fonts/nerd-fonts 2.0.0: Collection of fonts that are patched to include a 
 media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
-media-sound/audacity 2.3.2: Free crossplatform audio editor
-media-sound/cantata 2.4.0_pre20200110: Featureful and configurable Qt client for the music player daemon (MPD)
+media-sound/audacity 2.3.2-r1: Free crossplatform audio editor
+media-sound/cantata 2.4.0_pre20200110-r1: Featureful and configurable Qt client for the music player daemon (MPD)
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
-media-sound/mpd 0.22_pre20200121-r1: The Music Player Daemon (mpd)
-media-sound/ncmpc 0.37: Ncurses client for the Music Player Daemon (MPD)
+media-sound/mpd 0.22_pre20200121-r2: The Music Player Daemon (mpd)
+media-sound/ncmpc 0.37-r1: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 sys-apps/flashbench 20161130: Testing tool for managed flash memory devices
 sys-fs/sanoid 2.0.3: Policy-driven snapshot management and replication tools.
+www-client/brave-bin 1.9.72: Brave Web Browser
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM
 x11-misc/dmenu 4.9_p20190303: a generic, highly customizable, and efficient menu for the X Window System
 x11-misc/tbsm 0.5: A pure bash session or application launcher. Inspired by cdm, tdm and krunner
