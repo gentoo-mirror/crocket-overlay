@@ -8,8 +8,8 @@ inherit go-module
 DESCRIPTION="a small Clojure interpreter and linter written in Go."
 HOMEPAGE="https://joker-lang.org/"
 EGO_SUM=(
-	"github.com/candid82/liner v1.3.2"
-	"github.com/candid82/liner v1.3.2/go.mod"
+	"github.com/candid82/liner v1.4.0"
+	"github.com/candid82/liner v1.4.0/go.mod"
 	"github.com/jcburley/go-spew v1.3.0"
 	"github.com/jcburley/go-spew v1.3.0/go.mod"
 	"github.com/mattn/go-runewidth v0.0.3"
