@@ -16,7 +16,8 @@ KEYWORDS="~amd64"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="
-	>=dev-python/arrow-0.13.1[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/arrow-0.15.6[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	dev-python/click-didyoumean[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
