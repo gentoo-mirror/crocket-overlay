@@ -17,6 +17,7 @@ dev-lang/clojure-bin 1.10.1.492: A dynamic programming language that targets the
 dev-lang/janet 1.9.1 1.10.1: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.4 0.15.5: a small Clojure interpreter and linter written in Go.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
+dev-python/click-didyoumean 0.0.3_p20190310: Enable git-like did-you-mean feature in click.
 dev-python/colour 0.1.5-r3: Python color representations manipulation library (RGB, HSL, web, ...)
 dev-python/d2to1 0.2.12_p1: It converts distutils2's setup.cfg to setuptools' setup.py
 dev-python/i3pystatus 3.35_p20200108-r1 9999: A complete replacement for i3status with many status modules
@@ -24,7 +25,7 @@ dev-python/librouteros 3.0.0: Python implementation of routeros api
 dev-python/pyalsaaudio 0.8.4: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r2: Pure-python FIGlet implementation
 dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
-dev-python/td-watson 1.8.0-r2: A wonderful CLI to track your time!
+dev-python/td-watson 1.10.0: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0: Countdown timer and stopwatch in your terminal
 media-fonts/koruri 20180915: Japanese TrueType font based on M+ outline fonts and Open Sans
 media-fonts/nerd-fonts 2.0.0: Collection of fonts that are patched to include a high number of glyphs (icons).
