@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 DESCRIPTION="A lightweight decompression library with support for rar, tar and zip archives"
 HOMEPAGE="https://github.com/selmf/unarr"
