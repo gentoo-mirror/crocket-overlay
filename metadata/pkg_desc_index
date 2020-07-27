@@ -1,7 +1,7 @@
 app-arch/unarr 1.1.0_pre20200201-r1: A lightweight decompression library with support for rar, tar and zip archives
 app-misc/anki 2.1.16-r5: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
-app-misc/lf 14: a terminal file manager written in Go
+app-misc/lf 14 15: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-office/calcurse 4.6.0: a text-based calendar and scheduling application
 dev-janet/argparse 0_pre20191110: A moderately opinionated argument parser for janet.
@@ -14,7 +14,7 @@ dev-janet/sh 0_alpha20200513: A janet module for shell functions.
 dev-janet/utf8 0.3: Utility functions for UTF-8
 dev-lang/babashka-bin 0.0.59: A clojure interpreter
 dev-lang/clojure-bin 1.10.1.492: A dynamic programming language that targets the Java Virtual Machine
-dev-lang/janet 1.10.1 1.11.0: A functional and imperative language for scripting and embedding
+dev-lang/janet 1.11.0 1.11.1: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.4 0.15.5: a small Clojure interpreter and linter written in Go.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/asynctest 0.13.0: Enhance standard unittest package with features for testing asyncio libraries
