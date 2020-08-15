@@ -1,6 +1,6 @@
 DEFINED_PHASES=install postinst postrm setup
 DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
-DESCRIPTION=The Nanum Korean fonts distributed by Naver
+DESCRIPTION=Korean gothic font
 EAPI=7
 HOMEPAGE=http://hangeul.naver.com
 IUSE=X
@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1
 RESTRICT=binchecks strip
 SLOT=0
-SRC_URI=mirror://crocket/NanumGothicEco-2011.zip
+SRC_URI=mirror://crocket/NanumGothic-2016-OTF.zip mirror://crocket/NanumGothic-2016-TTF.zip
 _eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
-_md5_=016aba1bf3123e2cbdcf6798a99eb0f9
+_md5_=0d182c4b6f3342e9e27fabb8959e6a36

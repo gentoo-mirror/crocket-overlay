@@ -29,18 +29,18 @@ dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
 dev-python/td-watson 1.10.0: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
-media-fonts/NanumBarunGothic 2015: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumBarunGothicYetHanGul 2014: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumBarunPen 2014: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumGothic 2016: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumGothicCoding 2.5: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumGothicEco 2011: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumMyeongJo 2014: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumMyeongJoEco 2011: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumMyeongJoYetHanGul 2014: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumSonGeulSsi 2010: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumSquare 2017: The Nanum Korean fonts distributed by Naver
-media-fonts/NanumSquareRound 2017: The Nanum Korean fonts distributed by Naver
+media-fonts/NanumBarunGothic 2018: Korean font optimized for mobile devices
+media-fonts/NanumBarunGothicYetHanGul 2014-r1: Font for old korean letters
+media-fonts/NanumBarunPen 2014-r1: Korean hand-written font based on NanumGothic
+media-fonts/NanumGothic 2016-r1: Korean gothic font
+media-fonts/NanumGothicCoding 2.5-r1: Korean monospace gothic font
+media-fonts/NanumGothicEco 2011-r1: Korean gothic font optimized for saving ink
+media-fonts/NanumMyeongJo 2014-r1: Korean brush font
+media-fonts/NanumMyeongJoEco 2011-r1: Korean brush font optimized for saving ink
+media-fonts/NanumMyeongJoYetHanGul 2014-r1: Font for old korean letters
+media-fonts/NanumSonGeulSsi 2010-r1: Dynamic korean hand-written font
+media-fonts/NanumSquare 2017-r1: Korean square font
+media-fonts/NanumSquareRound 2017-r1: Korean rounded-square font
 media-fonts/koruri 20180915: Japanese TrueType font based on M+ outline fonts and Open Sans
 media-fonts/nerd-fonts 2.0.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
