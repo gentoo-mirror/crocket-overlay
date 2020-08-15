@@ -5,9 +5,10 @@ EAPI="7"
 
 inherit font
 
-DESCRIPTION="The Nanum Korean fonts distributed by Naver"
+DESCRIPTION="Korean brush font"
 HOMEPAGE="http://hangeul.naver.com"
-SRC_URI="mirror://crocket/${P}.zip"
+SRC_URI="mirror://crocket/${P}-OTF.zip
+	mirror://crocket/${P}-TTF.zip"
 
 LICENSE="OFL-1.1"
 SLOT="0"
@@ -18,5 +19,5 @@ RESTRICT="binchecks strip"
 DEPEND=""
 RDEPEND=""
 
-FONT_SUFFIX="otf"
+FONT_SUFFIX="otf ttf"
 S="${WORKDIR}"
