@@ -41,6 +41,7 @@ DEPEND=""
 RDEPEND=""
 
 FONT_SUFFIX="otf ttf"
+FONT_CONF=( "${FILESDIR}/45-${PN}.conf" )
 S="${WORKDIR}"
 
 src_prepare() {
