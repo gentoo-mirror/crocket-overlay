@@ -29,9 +29,10 @@ dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
 dev-python/td-watson 1.10.0: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
-media-fonts/ipaex-font 004.01: TrueType fonts developed by Japanese Information-technology Promotion Agency
+media-fonts/ipa-font 003.03: Fixed-width japanese fonts and variable-width japanese fonts
+media-fonts/ipaex-font 004.01-r1: TrueType fonts developed by Japanese Information-technology Promotion Agency
 media-fonts/koruri 20180915: Japanese TrueType font based on M+ outline fonts and Open Sans
-media-fonts/nanum-fonts 2018: Korean fonts distributed by naver
+media-fonts/nanum-fonts 2018-r1: Korean fonts distributed by naver
 media-fonts/nerd-fonts 2.0.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
