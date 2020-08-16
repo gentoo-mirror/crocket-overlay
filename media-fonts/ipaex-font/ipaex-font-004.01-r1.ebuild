@@ -15,4 +15,5 @@ KEYWORDS="~amd64 ~x86"
 
 S="${WORKDIR}/${PROG_P}"
 FONT_SUFFIX="ttf"
+FONT_CONF=( "${FILESDIR}/45-${PN}.conf" )
 DOCS="Readme_${PROG_P}.txt"
