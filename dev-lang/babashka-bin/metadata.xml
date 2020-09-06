@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-  <longdescription>
-    A Clojure babushka for the grey areas of Bash. The sweet spot for babashka is executing Clojure snippets or scripts in the same space where you would use Bash.
-  </longdescription>
-</pkgmetadata>
