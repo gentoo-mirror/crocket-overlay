@@ -12,8 +12,6 @@ dev-janet/repl-tools 0.2: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0_alpha20200513: A janet module for shell functions.
 dev-janet/utf8 0.3: Utility functions for UTF-8
-dev-lang/babashka-bin 0.0.59: A clojure interpreter
-dev-lang/clojure-bin 1.10.1.492: A dynamic programming language that targets the Java Virtual Machine
 dev-lang/janet 1.11.1 1.11.2: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.5 0.15.6: a small Clojure interpreter and linter written in Go.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
@@ -30,6 +28,7 @@ dev-python/td-watson 1.10.0: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
+media-fonts/font-logos 0.14: An icon font containing logos of popular linux distributions and other open source software
 media-fonts/ipa 003.03: Fixed-width japanese fonts and variable-width japanese fonts
 media-fonts/ipaex 004.01: TrueType fonts developed by Japanese Information-technology Promotion Agency
 media-fonts/koruri 20180915: Japanese TrueType font based on M+ outline fonts and Open Sans
