@@ -7,7 +7,7 @@ inherit meson
 
 DESCRIPTION="Ncurses client for the Music Player Daemon (MPD)"
 HOMEPAGE="https://www.musicpd.org/clients/ncmpc/ https://github.com/MusicPlayerDaemon/ncmpc"
-SRC_URI="https://www.musicpd.org/download/${PN}/${PV%.*}/${P}.tar.xz"
+SRC_URI="https://github.com/MusicPlayerDaemon/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
