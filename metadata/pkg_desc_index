@@ -12,7 +12,7 @@ dev-janet/repl-tools 0.2: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0_alpha20200513: A janet module for shell functions.
 dev-janet/utf8 0.3: Utility functions for UTF-8
-dev-lang/janet 1.11.2 1.12.1: A functional and imperative language for scripting and embedding
+dev-lang/janet 1.12.1 1.12.2: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.5 0.15.6: a small Clojure interpreter and linter written in Go.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/asynctest 0.13.0: Enhance standard unittest package with features for testing asyncio libraries
@@ -27,6 +27,7 @@ dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
 dev-python/td-watson 1.10.0: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
+gui-apps/emptty 0.2.3_p20200921: Dead simple CLI Display Manager on TTY
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
 media-fonts/font-logos 0.14: An icon font containing logos of popular linux distributions and other open source software
 media-fonts/ipa 003.03: Fixed-width japanese fonts and variable-width japanese fonts
@@ -41,7 +42,7 @@ media-sound/audacity 2.3.2-r1: Free crossplatform audio editor
 media-sound/cantata 2.4.0_pre20200110-r1: Featureful and configurable Qt client for the music player daemon (MPD)
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
 media-sound/mpd 0.22_pre20200121-r2: The Music Player Daemon (mpd)
-media-sound/ncmpc 0.37-r1: Ncurses client for the Music Player Daemon (MPD)
+media-sound/ncmpc 0.39: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
