@@ -3,12 +3,12 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python{3_4,3_5,3_6,3_7} )
+PYTHON_COMPAT=( python3_{6,7,8,9} )
 inherit distutils-r1
 
 DESCRIPTION="A complete replacement for i3status with many status modules"
 HOMEPAGE="https://github.com/enkore/i3pystatus"
-GIT_COMMIT="607584f160846db7e8343b2bdd2d84d64cee5774"
+GIT_COMMIT="992fb8cecb10a92b79c3342deec2bad05b42d927"
 SRC_URI="https://github.com/enkore/i3pystatus/archive/${GIT_COMMIT}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${PN}-${GIT_COMMIT}"
 LICENSE="MIT"
