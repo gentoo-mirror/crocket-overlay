@@ -14,7 +14,7 @@ dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0_alpha20200513: A janet module for shell functions.
 dev-janet/utf8 0.3: Utility functions for UTF-8
 dev-lang/janet 1.12.1 1.12.2: A functional and imperative language for scripting and embedding
-dev-lang/joker 0.15.5 0.15.6: a small Clojure interpreter and linter written in Go.
+dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/asynctest 0.13.0: Enhance standard unittest package with features for testing asyncio libraries
 dev-python/click-didyoumean 0.0.3_p20190310: Enable git-like did-you-mean feature in click.
