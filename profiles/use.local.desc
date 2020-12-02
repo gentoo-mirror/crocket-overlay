@@ -7,6 +7,9 @@ app-misc/anki:recording - Enable support for audio recording
 app-misc/anki:sound - Enable support for adding sound to cards
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
+gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
+media-fonts/nerd-fonts-symbols:1000-em - Use 1000-em version of nerd-fonts-symbols
+media-fonts/nerd-fonts-symbols:2048-em - Use 2048-em version of nerd-fonts-symbols
 media-gfx/yacreader:qrencode - Support for encoding QR codes
 media-libs/zita-alsa-pcmi:tools - Install executables
 media-libs/zita-resampler:tools - Install executables

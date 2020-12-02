@@ -4,8 +4,10 @@ app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 15 17: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-office/calcurse 4.6.0: a text-based calendar and scheduling application
-dev-janet/argparse 0_pre20191110: A moderately opinionated argument parser for janet.
+dev-janet/argparse 0_pre20201201: A moderately opinionated argument parser for janet.
 dev-janet/circlet 0_alpha20200616: an HTTP and networking library
+dev-janet/http 0.1.0_p20200207: A janet HTTP client
+dev-janet/json 0_pre20200117: A JSON module for janet.
 dev-janet/path 0_pre20191213: Simple path manipulation module for Janet.
 dev-janet/posix-spawn 0_alpha20200512: A process API for janet wrapping posix-spawn(3).
 dev-janet/process 0_alpha20200509: A janet module for running child processes.
@@ -20,7 +22,7 @@ dev-python/asynctest 0.13.0: Enhance standard unittest package with features for
 dev-python/click-didyoumean 0.0.3_p20190310: Enable git-like did-you-mean feature in click.
 dev-python/colour 0.1.5-r3: Python color representations manipulation library (RGB, HSL, web, ...)
 dev-python/d2to1 0.2.12_p1: It converts distutils2's setup.cfg to setuptools' setup.py
-dev-python/i3pystatus 3.35_p20201002 9999: A complete replacement for i3status with many status modules
+dev-python/i3pystatus 3.35_p20201022 9999: A complete replacement for i3status with many status modules
 dev-python/librouteros 3.0.0: Python implementation of routeros api
 dev-python/pyalsaaudio 0.8.4: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r2: Pure-python FIGlet implementation
@@ -37,6 +39,7 @@ media-fonts/ipaex 004.01: TrueType fonts developed by Japanese Information-techn
 media-fonts/koruri 20180915: Japanese TrueType font based on M+ outline fonts and Open Sans
 media-fonts/material-design-icons 20200810: Font containing material design icons
 media-fonts/nanum 2018: Korean fonts distributed by naver
+media-fonts/nerd-fonts-symbols 2.1.0_p20201201: Symbols-only fonts from nerd fonts
 media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
