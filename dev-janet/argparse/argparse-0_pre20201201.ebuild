@@ -7,8 +7,8 @@ inherit janet-module
 
 DESCRIPTION="A moderately opinionated argument parser for janet."
 HOMEPAGE="https://github.com/janet-lang/argparse"
-GIT_COMMIT="a298e9f918ccd6f5fb9ef5a4016a533b68effff3"
-SRC_URI="https://github.com/janet-lang/argparse/archive/${GIT_COMMIT}.tar.gz -> janet-${P}.tar.gz"
+GIT_COMMIT="206656f81a37fbb85ea1326d081944e523f93c6d"
+SRC_URI="https://github.com/crocket/argparse/archive/${GIT_COMMIT}.tar.gz -> janet-${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
