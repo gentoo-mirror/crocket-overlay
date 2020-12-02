@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6,7,8} )
+PYTHON_COMPAT=( python3_{4,5,6,7,8} )
 inherit distutils-r1
 
 DESCRIPTION="Countdown timer and stopwatch in your terminal"
@@ -18,6 +18,6 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="
 	>=dev-python/click-2.0[${PYTHON_USEDEP}]
-	>=dev-python/pyfiglet-0.7[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/pyfiglet-0.7[${PYTHON_USEDEP}]
 	speak? ( >=app-accessibility/espeak-1.48 )"

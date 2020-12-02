@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A complete replacement for i3status with many status modules"
 HOMEPAGE="https://github.com/enkore/i3pystatus"
-GIT_COMMIT="992fb8cecb10a92b79c3342deec2bad05b42d927"
+GIT_COMMIT="b5f485bc5adb0dc6f819090b5412857d050c6c04"
 SRC_URI="https://github.com/enkore/i3pystatus/archive/${GIT_COMMIT}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${PN}-${GIT_COMMIT}"
 LICENSE="MIT"
