@@ -4,7 +4,7 @@
 EAPI=7
 inherit font
 
-DESCRIPTION="An icon font containing logos of popular linux distributions and other open source software"
+DESCRIPTION="An icon font containing logos of linux distributions and other softwares."
 HOMEPAGE="https://lukas-w.github.io/font-logos/"
 SRC_URI="https://github.com/Lukas-W/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
