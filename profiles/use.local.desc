@@ -8,20 +8,14 @@ app-misc/anki:sound - Enable support for adding sound to cards
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
 gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
+gui-apps/swaylock:fish-completion - Enable fish completion support
+gui-apps/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
+gui-apps/swaylock:man - Build and install man pages
 media-fonts/nerd-fonts-symbols:1000-em - Use 1000-em version of nerd-fonts-symbols
 media-fonts/nerd-fonts-symbols:2048-em - Use 2048-em version of nerd-fonts-symbols
 media-gfx/yacreader:qrencode - Support for encoding QR codes
 media-libs/zita-alsa-pcmi:tools - Install executables
 media-libs/zita-resampler:tools - Install executables
-media-sound/audacity:id3tag - Enables ID3 tagging with id3tag library
-media-sound/audacity:lv2 - Add support for Ladspa V2
-media-sound/audacity:midi - Enables MIDI support
-media-sound/audacity:portmixer - Enable the internal portmixer feature
-media-sound/audacity:sbsms - Enables sbsms library support for slower, more accurate pitch and tempo changing
-media-sound/audacity:soundtouch - Enables soundtouch library support for pitch and tempo changing
-media-sound/audacity:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
-media-sound/audacity:vamp - Enables vamp plugins support (Audio analysing plugins)
-media-sound/audacity:vst - Enable VST plugin support
 media-sound/cantata:cdio - Use dev-libs/libcdio-paranoia for CD support (instead of cdparanoia)
 media-sound/cantata:http-server - Enable internal HTTP server to play non-MPD files
 media-sound/cantata:replaygain - Enable ReplayGain support, for relative volume adjustments
