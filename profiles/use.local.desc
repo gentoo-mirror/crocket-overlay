@@ -62,3 +62,4 @@ media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/freque
 media-sound/pyradio:mplayer - 
 media-sound/pyradio:mpv - 
 media-sound/pyradio:vlc - 
+net-misc/electron-cash:qrcode - Enable QR code scanning with media-gfx/zbar

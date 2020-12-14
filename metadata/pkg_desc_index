@@ -51,6 +51,7 @@ media-sound/ncmpc 0.39: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
+net-misc/electron-cash 4.2.3: Lightweight Bitcoin Cash client (BCH fork of Electrum)
 net-p2p/stig 0.11.2: TUI and CLI for the BitTorrent client Transmission
 sys-apps/flashbench 20161130: Testing tool for managed flash memory devices
 sys-auth/pam-gnupg 0.2_p20201125: Unlock GnuPG keys on login
