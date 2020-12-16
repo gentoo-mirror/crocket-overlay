@@ -9,5 +9,5 @@ LICENSE=Unlicense
 RESTRICT=binchecks strip test
 SLOT=0
 SRC_URI=https://github.com/Lukas-W/font-logos/archive/v0.14.tar.gz -> font-logos-0.14.tar.gz
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_eclasses_=font	e052246186f22bd6a37797238374613b
 _md5_=564f56edaea22c958e7800ffe9ce6252
