@@ -9,5 +9,5 @@ LICENSE=MIT
 REQUIRED_USE=2048-em? ( !1000-em )
 SLOT=0
 SRC_URI=https://github.com/ryanoasis/nerd-fonts/raw/0f15e7d67f8251429276a2b91794822ff9a7fa65/10-nerd-font-symbols.conf 1000-em? ( https://github.com/ryanoasis/nerd-fonts/raw/0f15e7d67f8251429276a2b91794822ff9a7fa65/src/glyphs/Symbols-1000-em%20Nerd%20Font%20Complete.ttf ) 2048-em? ( https://github.com/ryanoasis/nerd-fonts/raw/0f15e7d67f8251429276a2b91794822ff9a7fa65/src/glyphs/Symbols-2048-em%20Nerd%20Font%20Complete.ttf )
-_eclasses_=font	e052246186f22bd6a37797238374613b
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
 _md5_=3c2c33456f2d6d8a86bab84969738cba
