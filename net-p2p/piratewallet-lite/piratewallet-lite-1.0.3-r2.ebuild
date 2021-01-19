@@ -272,15 +272,16 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-CDEPEND="dev-qt/qtcore
-	dev-qt/qtnetwork
-	dev-qt/qtgui
-	dev-qt/qtwidgets
-	dev-qt/qtwebsockets"
+CDEPEND="dev-qt/qtcore:5
+	dev-qt/qtnetwork:5
+	dev-qt/qtgui:5
+	dev-qt/qtwidgets:5
+	dev-qt/qtwebsockets:5"
 DEPEND="${CDEPEND}
 	dev-libs/libsodium[static-libs]"
 RDEPEND="${CDEPEND}"
-BDEPEND=">=virtual/rust-1.37"
+BDEPEND=">=virtual/rust-1.37
+	sys-devel/gcc"
 S="${WORKDIR}/PirateWallet-Lite-${PV}"
 DOCS="README.md"
 
