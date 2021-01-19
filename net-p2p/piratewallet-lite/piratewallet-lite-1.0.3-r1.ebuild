@@ -248,9 +248,9 @@ xattr-0.2.2
 yaml-rust-0.4.3"
 
 DESCRIPTION="This is z-Addr first, Sapling compatible wallet lightwallet for Pirate."
-HOMEPAGE="https://github.com/MrMLynch/PirateWallet-Lite"
+HOMEPAGE="https://github.com/PirateNetwork/PirateWallet-Lite"
 RESTRICT="primaryuri"
-SRC_URI="https://github.com/MrMLynch/PirateWallet-Lite/archive/${PV}.tar.gz -> ${P}.tar.gz
+SRC_URI="https://github.com/PirateNetwork/PirateWallet-Lite/archive/${PV}.tar.gz -> ${P}.tar.gz
 	$(cargo_crate_uris $CRATES)
 	https://github.com/crocket/crocket-overlay-distfiles/raw/master/piratewallet-lite/arrrwalletlitelib-0.1.0.crate
 	https://github.com/crocket/crocket-overlay-distfiles/raw/master/piratewallet-lite/bellman-0.1.0.crate
