@@ -1,0 +1,18 @@
+diff -ru tower-h2-0.1.0/Cargo.toml tower-h2-0.1.0.new/Cargo.toml
+--- tower-h2-0.1.0/Cargo.toml	2021-01-16 19:50:08.000000000 +0900
++++ tower-h2-0.1.0.new/Cargo.toml	2021-01-16 22:02:55.098605132 +0900
+@@ -22,11 +22,11 @@
+ h2 = "0.1.11"
+ http = "0.1"
+ log = "0.4"
+-tokio-connect = { git = "https://github.com/carllerche/tokio-connect" }
++tokio-connect = "0.1.0"
+ tokio-io = "0.1"
+ tower-service = "0.2"
+-tower-http = { git = "https://github.com/tower-rs/tower-http" }
+-tower = { git = "https://github.com/tower-rs/tower" }
++tower-http = "0.1.0"
++tower = "0.1.1"
+ 
+ [dev-dependencies]
+ env_logger = { version = "^0.5", default-features = false }
