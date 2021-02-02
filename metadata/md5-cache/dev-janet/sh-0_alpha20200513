@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=>=dev-janet/posix-spawn-0_alpha20200512 >=dev-lang/janet-1.6.0
 SLOT=0
 SRC_URI=https://github.com/andrewchambers/janet-sh/archive/4226a4cae548fde38358aa1fdb6d6a90bf5fe175.tar.gz -> janet-sh-0_alpha20200513.tar.gz
-_eclasses_=janet-module	8a649c820ef3e9a53a64997068eb32b7
+_eclasses_=janet-module	20d73ec184e5dd5c9627a75306b6c878
 _md5_=c7a5ef7b276fa421a34877419da11095

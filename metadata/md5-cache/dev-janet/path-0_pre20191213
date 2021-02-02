@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/janet-1.6.0
 SLOT=0
 SRC_URI=https://github.com/janet-lang/path/archive/d8619960d428c45ebb784600771a7c584ae49431.tar.gz -> janet-path-0_pre20191213.tar.gz
-_eclasses_=janet-module	8a649c820ef3e9a53a64997068eb32b7
+_eclasses_=janet-module	20d73ec184e5dd5c9627a75306b6c878
 _md5_=7f7ed7e95ccbeb2411db72ec5cff5a40

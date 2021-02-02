@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/janet-1.6.0
 SLOT=0
 SRC_URI=https://github.com/crocket/argparse/archive/206656f81a37fbb85ea1326d081944e523f93c6d.tar.gz -> janet-argparse-0_pre20201201.tar.gz
-_eclasses_=janet-module	8a649c820ef3e9a53a64997068eb32b7
+_eclasses_=janet-module	20d73ec184e5dd5c9627a75306b6c878
 _md5_=5379d3257f41615980c79a636b0b5106

@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=net-misc/curl >=dev-lang/janet-1.6.0
 SLOT=0
 SRC_URI=https://github.com/joy-framework/http/archive/fc18c72e31259b6fc80c932990adaa313f86f93d.tar.gz -> janet-http-0.1.0_p20200207.tar.gz
-_eclasses_=janet-module	8a649c820ef3e9a53a64997068eb32b7
+_eclasses_=janet-module	20d73ec184e5dd5c9627a75306b6c878
 _md5_=6ff9915d295012399240ac4afa4a6761
