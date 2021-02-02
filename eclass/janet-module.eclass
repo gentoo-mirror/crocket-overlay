@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: janet-module
@@ -26,11 +26,11 @@ ejpm() {
 }
 
 janet-module_src_compile() {
-	ejpm build
+	ejpm build || die
 }
 
 janet-module_src_install() {
 	mkdir -p "$(janet-module_janet_path)"
-	ejpm install
+	ejpm install || die
 	einstalldocs
 }
