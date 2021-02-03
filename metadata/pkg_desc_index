@@ -51,8 +51,8 @@ media-sound/ncmpc 0.39: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
+net-dns/jddclient 0.2.0: A Dynamic DNS Client written in janet
 net-misc/electron-cash 4.2.3: Lightweight Bitcoin Cash client (BCH fork of Electrum)
-net-misc/jddclient 0.2.0: A Dynamic DNS Client written in janet
 net-p2p/pirate-light-cli 1.0.0_p20191124: Pirate Light CLI - A command line Pirate Wallet light client.
 net-p2p/piratewallet-lite 1.0.3-r2: This is z-Addr first, Sapling compatible wallet lightwallet for Pirate.
 net-p2p/stig 0.11.2: TUI and CLI for the BitTorrent client Transmission
