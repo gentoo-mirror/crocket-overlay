@@ -20,7 +20,7 @@ dev-lang/janet 1.15.0 1.15.2: A functional and imperative language for scripting
 dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/asynctest 0.13.0: Enhance standard unittest package with features for testing asyncio libraries
-dev-python/click-didyoumean 0.0.3_p20190310: Enable git-like did-you-mean feature in click.
+dev-python/click-didyoumean 0.0.3_p20200930: Enable git-like did-you-mean feature in click.
 dev-python/colour 0.1.5-r3: Python color representations manipulation library (RGB, HSL, web, ...)
 dev-python/d2to1 0.2.12_p1: It converts distutils2's setup.cfg to setuptools' setup.py
 dev-python/i3pystatus 3.35_p20201022 9999: A complete replacement for i3status with many status modules
@@ -28,7 +28,7 @@ dev-python/librouteros 3.0.0: Python implementation of routeros api
 dev-python/pyalsaaudio 0.8.4: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r2: Pure-python FIGlet implementation
 dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
-dev-python/td-watson 1.10.0: A wonderful CLI to track your time!
+dev-python/td-watson 1.10.0_p20210304: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0-r1: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
 gui-apps/emptty 0.3.0: Dead simple CLI Display Manager on TTY
