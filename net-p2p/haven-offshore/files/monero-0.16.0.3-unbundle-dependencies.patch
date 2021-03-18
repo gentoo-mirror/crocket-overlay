@@ -1,0 +1,45 @@
+diff -ur a/monero/external/CMakeLists.txt b/monero/external/CMakeLists.txt
+--- a/monero/external/CMakeLists.txt	2020-08-03 22:45:47.000000000 +0900
++++ b/monero/external/CMakeLists.txt	2021-03-16 17:23:13.650723164 +0900
+@@ -37,19 +37,7 @@
+ 
+ find_package(Miniupnpc REQUIRED)
+ 
+-message(STATUS "Using in-tree miniupnpc")
+-add_subdirectory(miniupnp/miniupnpc)
+-set_property(TARGET libminiupnpc-static PROPERTY FOLDER "external")
+-if(MSVC)
+-  set_property(TARGET libminiupnpc-static APPEND_STRING PROPERTY COMPILE_FLAGS " -wd4244 -wd4267")
+-elseif(NOT MSVC)
+-  set_property(TARGET libminiupnpc-static APPEND_STRING PROPERTY COMPILE_FLAGS " -Wno-undef -Wno-unused-result -Wno-unused-value")
+-endif()
+-if(CMAKE_SYSTEM_NAME MATCHES "NetBSD")
+-	set_property(TARGET libminiupnpc-static APPEND_STRING PROPERTY COMPILE_FLAGS " -D_NETBSD_SOURCE")
+-endif()
+-
+-set(UPNP_LIBRARIES "libminiupnpc-static" PARENT_SCOPE)
++set(UPNP_LIBRARIES "miniupnpc" PARENT_SCOPE)
+ 
+ find_package(Unbound)
+ 
+@@ -80,4 +68,3 @@
+ 
+ add_subdirectory(db_drivers)
+ add_subdirectory(easylogging++)
+-add_subdirectory(randomx EXCLUDE_FROM_ALL)
+diff -ur a/monero/src/p2p/net_node.inl b/monero/src/p2p/net_node.inl
+--- a/monero/src/p2p/net_node.inl	2020-08-03 22:45:47.000000000 +0900
++++ b/monero/src/p2p/net_node.inl	2021-03-16 17:28:05.392899580 +0900
+@@ -60,9 +60,9 @@
+ #include "cryptonote_core/cryptonote_core.h"
+ #include "net/parse.h"
+ 
+-#include <miniupnp/miniupnpc/miniupnpc.h>
+-#include <miniupnp/miniupnpc/upnpcommands.h>
+-#include <miniupnp/miniupnpc/upnperrors.h>
++#include <miniupnpc/miniupnpc.h>
++#include <miniupnpc/upnpcommands.h>
++#include <miniupnpc/upnperrors.h>
+ 
+ #undef MONERO_DEFAULT_LOG_CATEGORY
+ #define MONERO_DEFAULT_LOG_CATEGORY "net.p2p"
