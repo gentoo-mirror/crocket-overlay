@@ -28,7 +28,7 @@ dev-python/librouteros 3.0.0: Python implementation of routeros api
 dev-python/pyalsaaudio 0.8.4: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r2: Pure-python FIGlet implementation
 dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
-dev-python/td-watson 1.10.0_p20210304: A wonderful CLI to track your time!
+dev-python/td-watson 1.10.0_p20210304 2.0.0: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0-r1: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
 gui-apps/emptty 0.3.0: Dead simple CLI Display Manager on TTY
