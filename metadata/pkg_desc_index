@@ -31,7 +31,7 @@ dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
 dev-python/td-watson 1.10.0_p20210304 2.0.0: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0-r1: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
-gui-apps/emptty 0.3.0-r1: Dead simple CLI Display Manager on TTY
+gui-apps/emptty 0.3.0-r1 0.5.0: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2: A screen color temperature adjusting software
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
