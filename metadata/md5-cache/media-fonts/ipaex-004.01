@@ -1,12 +1,13 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup
-DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DESCRIPTION=TrueType fonts developed by Japanese Information-technology Promotion Agency
 EAPI=7
 HOMEPAGE=https://ipafont.ipa.go.jp/
+INHERIT=font
 IUSE=X
 KEYWORDS=~amd64 ~x86
 LICENSE=IPAfont
 SLOT=0
 SRC_URI=https://ipafont.ipa.go.jp/IPAexfont/IPAexfont00401.zip
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_eclasses_=font	0667878c2b594871023dd1833d05996f
 _md5_=385ad1c523fa7603566a878b6d7d2115

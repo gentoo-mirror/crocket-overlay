@@ -1,13 +1,14 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm prepare setup
-DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DESCRIPTION=Korean fonts distributed by naver
 EAPI=7
 HOMEPAGE=http://hangeul.naver.com
+INHERIT=font
 IUSE=X
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1
 RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=mirror://crocket/NanumBarunGothic-2018-OTF.zip mirror://crocket/NanumBarunGothic-2018-TTF.zip mirror://crocket/NanumBarunGothicYetHanGul-2014-OTF.zip mirror://crocket/NanumBarunGothicYetHanGul-2014-TTF.zip mirror://crocket/NanumBarunPen-2014-OTF.zip mirror://crocket/NanumBarunPen-2014-TTF.zip mirror://crocket/NanumGothic-2016-OTF.zip mirror://crocket/NanumGothic-2016-TTF.zip mirror://crocket/NanumGothicCoding-2.5.zip mirror://crocket/NanumGothicEco-2011-OTF.zip mirror://crocket/NanumGothicEco-2011-TTF.zip mirror://crocket/NanumMyeongJo-2014-OTF.zip mirror://crocket/NanumMyeongJo-2014-TTF.zip mirror://crocket/NanumMyeongJoEco-2011-OTF.zip mirror://crocket/NanumMyeongJoEco-2011-TTF.zip mirror://crocket/NanumMyeongJoYetHanGul-2014-OTF.zip mirror://crocket/NanumMyeongJoYetHanGul-2014-TTF.zip mirror://crocket/NanumSonGeulSsi-2010-OTF.zip mirror://crocket/NanumSonGeulSsi-2010-TTF.zip mirror://crocket/NanumSquare-2017-OTF.zip mirror://crocket/NanumSquare-2017-TTF.zip mirror://crocket/NanumSquareRound-2017-OTF.zip mirror://crocket/NanumSquareRound-2017-TTF.zip
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_eclasses_=font	0667878c2b594871023dd1833d05996f
 _md5_=3d3e855b65eddc99e56c288f6e4781f3
