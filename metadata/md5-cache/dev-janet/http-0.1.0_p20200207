@@ -3,6 +3,7 @@ DEPEND=net-misc/curl >=dev-lang/janet-1.6.0
 DESCRIPTION=A janet HTTP client
 EAPI=7
 HOMEPAGE=https://github.com/joy-framework/http
+INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=net-misc/curl >=dev-lang/janet-1.6.0

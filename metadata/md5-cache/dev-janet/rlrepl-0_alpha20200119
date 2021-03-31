@@ -3,6 +3,7 @@ DEPEND=sys-libs/readline >=dev-lang/janet-1.6.0
 DESCRIPTION=A janet REPL using readline.
 EAPI=7
 HOMEPAGE=https://github.com/andrewchambers/janet-rlrepl
+INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=sys-libs/readline >=dev-lang/janet-1.6.0

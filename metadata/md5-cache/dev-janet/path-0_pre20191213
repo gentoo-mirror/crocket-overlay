@@ -3,6 +3,7 @@ DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=Simple path manipulation module for Janet.
 EAPI=7
 HOMEPAGE=https://github.com/janet-lang/path
+INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=>=dev-lang/janet-1.6.0

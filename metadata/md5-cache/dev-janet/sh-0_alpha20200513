@@ -3,6 +3,7 @@ DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=A janet module for shell functions.
 EAPI=7
 HOMEPAGE=https://github.com/andrewchambers/janet-process
+INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=dev-janet/posix-spawn-0_alpha20200512 >=dev-lang/janet-1.6.0

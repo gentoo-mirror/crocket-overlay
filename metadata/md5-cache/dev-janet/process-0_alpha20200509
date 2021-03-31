@@ -3,6 +3,7 @@ DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=A janet module for running child processes.
 EAPI=7
 HOMEPAGE=https://github.com/andrewchambers/janet-process
+INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=dev-lang/janet-1.6.0

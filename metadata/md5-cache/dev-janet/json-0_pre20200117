@@ -3,6 +3,7 @@ DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=A JSON module for janet.
 EAPI=7
 HOMEPAGE=https://github.com/janet-lang/json
+INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=>=dev-lang/janet-1.6.0

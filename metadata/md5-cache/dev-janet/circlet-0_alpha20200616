@@ -3,6 +3,7 @@ DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=an HTTP and networking library
 EAPI=7
 HOMEPAGE=https://github.com/janet-lang/circlet
+INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=>=dev-lang/janet-1.6.0

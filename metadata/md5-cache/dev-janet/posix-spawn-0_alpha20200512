@@ -3,6 +3,7 @@ DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=A process API for janet wrapping posix-spawn(3).
 EAPI=7
 HOMEPAGE=https://github.com/andrewchambers/janet-posix-spawn
+INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=dev-lang/janet-1.6.0
