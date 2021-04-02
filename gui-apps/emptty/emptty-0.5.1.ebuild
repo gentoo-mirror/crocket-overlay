@@ -8,10 +8,8 @@ inherit go-module
 DESCRIPTION="Dead simple CLI Display Manager on TTY"
 HOMEPAGE="https://github.com/tvrzna/emptty"
 EGO_SUM=(
-	"github.com/bgentry/speakeasy v0.1.0"
-	"github.com/bgentry/speakeasy v0.1.0/go.mod"
-	"github.com/msteinert/pam v0.0.0-20190215180659-f29b9f28d6f9"
-	"github.com/msteinert/pam v0.0.0-20190215180659-f29b9f28d6f9/go.mod"
+	"github.com/msteinert/pam v0.0.0-20200810204841-913b8f8cdf8b"
+	"github.com/msteinert/pam v0.0.0-20200810204841-913b8f8cdf8b/go.mod"
 )
 go-module_set_globals
 SRC_URI="https://github.com/tvrzna/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
@@ -25,6 +23,7 @@ IUSE=""
 DEPEND="sys-libs/pam
 	x11-libs/libX11"
 RDEPEND="${DEPEND}"
+BDEPEND=">=dev-lang/go-1.14"
 DOCS="README.md SAMPLES.md res/conf"
 
 src_compile() {
@@ -42,6 +41,4 @@ src_install() {
 	newins res/systemd-service emptty.service
 	exeinto /etc/init.d
 	newexe res/openrc-service emptty
-	exeinto /etc/sv/emptty
-	newexe res/runit-run run
 }
