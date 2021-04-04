@@ -1,0 +1,27 @@
+diff -ur a/monero/cmake/Version.cmake b/monero/cmake/Version.cmake
+--- a/monero/cmake/Version.cmake	2020-08-03 22:45:47.000000000 +0900
++++ b/monero/cmake/Version.cmake	2021-04-04 22:14:57.458091568 +0900
+@@ -31,20 +31,8 @@
+   configure_file("${CMAKE_SOURCE_DIR}/src/version.cpp.in" "${CMAKE_BINARY_DIR}/version.cpp")
+ endfunction ()
+ 
+-find_package(Git QUIET)
+-if ("$Format:$" STREQUAL "")
+-  # We're in a tarball; use hard-coded variables.
+-  set(VERSION_IS_RELEASE "true")
+-  write_version("release")
+-elseif (GIT_FOUND OR Git_FOUND)
+-  message(STATUS "Found Git: ${GIT_EXECUTABLE}")
+-  include(GitVersion)
+-  get_version_tag_from_git("${GIT_EXECUTABLE}")
+-  write_version("${VERSIONTAG}")
+-else()
+-  message(STATUS "WARNING: Git was not found!")
+-  set(VERSION_IS_RELEASE "false")
+-  write_version("unknown")
+-endif ()
++set(VERSION_IS_RELEASE "true")
++write_version("release")
++
+ add_custom_target(genversion ALL
+   DEPENDS "${CMAKE_BINARY_DIR}/version.cpp")
