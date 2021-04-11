@@ -4,6 +4,7 @@ app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 15 17: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-office/calcurse 4.6.0: a text-based calendar and scheduling application
+app-shells/peco 0.5.8_p20210315: Simplistic interactive filtering tool
 dev-janet/argparse 0_pre20201201: A moderately opinionated argument parser for janet.
 dev-janet/circlet 0_alpha20200616: an HTTP and networking library
 dev-janet/http 0.1.0_p20200207: A janet HTTP client
