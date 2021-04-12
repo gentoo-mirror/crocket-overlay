@@ -1,13 +1,13 @@
+BDEPEND=dev-lang/janet
 DEFINED_PHASES=compile install
-DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=A janet module for running child processes.
 EAPI=7
 HOMEPAGE=https://github.com/andrewchambers/janet-process
 INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=public-domain
-RDEPEND=>=dev-lang/janet-1.6.0
+RDEPEND=dev-lang/janet
 SLOT=0
 SRC_URI=https://github.com/andrewchambers/janet-process/archive/93ada5b91c3b5bb76000dafe2f9dc38a58917303.tar.gz -> janet-process-0_alpha20200509.tar.gz
-_eclasses_=janet-module	20d73ec184e5dd5c9627a75306b6c878
+_eclasses_=janet-functions	60f39b01f0502976a7e58d8254cdea53	janet-module	84efba24fb9a5f1499c7fcaa6100097a
 _md5_=ff32ccfa540dad6ccc1a816e0455e3c2

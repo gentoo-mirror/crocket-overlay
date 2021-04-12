@@ -1,13 +1,13 @@
+BDEPEND=dev-lang/janet
 DEFINED_PHASES=compile install
-DEPEND=>=dev-lang/janet-1.6.0
 DESCRIPTION=A janet module for shell functions.
 EAPI=7
 HOMEPAGE=https://github.com/andrewchambers/janet-process
 INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=public-domain
-RDEPEND=>=dev-janet/posix-spawn-0_alpha20200512 >=dev-lang/janet-1.6.0
+RDEPEND=>=dev-janet/posix-spawn-0_alpha20200512 dev-lang/janet
 SLOT=0
 SRC_URI=https://github.com/andrewchambers/janet-sh/archive/4226a4cae548fde38358aa1fdb6d6a90bf5fe175.tar.gz -> janet-sh-0_alpha20200513.tar.gz
-_eclasses_=janet-module	20d73ec184e5dd5c9627a75306b6c878
+_eclasses_=janet-functions	60f39b01f0502976a7e58d8254cdea53	janet-module	84efba24fb9a5f1499c7fcaa6100097a
 _md5_=c7a5ef7b276fa421a34877419da11095

@@ -10,7 +10,7 @@ dev-janet/circlet 0_alpha20200616: an HTTP and networking library
 dev-janet/http 0.1.0_p20200207: A janet HTTP client
 dev-janet/json 0_pre20200117: A JSON module for janet.
 dev-janet/path 0_pre20191213: Simple path manipulation module for Janet.
-dev-janet/posix-spawn 0_alpha20200512: A process API for janet wrapping posix-spawn(3).
+dev-janet/posix-spawn 0_alpha20200512 0_alpha20210217: A process API for janet wrapping posix-spawn(3).
 dev-janet/process 0_alpha20200509: A janet module for running child processes.
 dev-janet/repl-tools 0.2: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
@@ -53,7 +53,7 @@ media-sound/ncmpc 0.39: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
-net-dns/jddclient 0.2.0: A Dynamic DNS Client written in janet
+net-dns/jddclient 0.2.1: A Dynamic DNS Client written in janet
 net-misc/electron-cash 4.2.3: Lightweight Bitcoin Cash client (BCH fork of Electrum)
 net-p2p/haven-offshore 1.3.0a: Haven protocol(XHV) command line wallet
 net-p2p/pirate-light-cli 1.0.0_p20191124: Pirate Light CLI - A command line Pirate Wallet light client.
@@ -63,6 +63,7 @@ sys-apps/flashbench 20161130: Testing tool for managed flash memory devices
 sys-auth/pam-gnupg 0.2_p20201125: Unlock GnuPG keys on login
 sys-fs/sanoid 2.0.3 2.1.0: Policy-driven snapshot management and replication tools.
 www-client/brave-bin 1.9.72: Brave Web Browser
+www-misc/buku-fzf 0.1.0: A buku bookmark browser
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM
 x11-misc/dmenu 4.9_p20190303: a generic, highly customizable, and efficient menu for the X Window System
 x11-misc/tbsm 0.5: A pure bash session or application launcher. Inspired by cdm, tdm and krunner

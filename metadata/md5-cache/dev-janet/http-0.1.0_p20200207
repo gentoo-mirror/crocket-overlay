@@ -1,13 +1,14 @@
+BDEPEND=dev-lang/janet
 DEFINED_PHASES=compile install
-DEPEND=net-misc/curl >=dev-lang/janet-1.6.0
+DEPEND=net-misc/curl
 DESCRIPTION=A janet HTTP client
 EAPI=7
 HOMEPAGE=https://github.com/joy-framework/http
 INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=net-misc/curl >=dev-lang/janet-1.6.0
+RDEPEND=net-misc/curl dev-lang/janet
 SLOT=0
 SRC_URI=https://github.com/joy-framework/http/archive/fc18c72e31259b6fc80c932990adaa313f86f93d.tar.gz -> janet-http-0.1.0_p20200207.tar.gz
-_eclasses_=janet-module	20d73ec184e5dd5c9627a75306b6c878
+_eclasses_=janet-functions	60f39b01f0502976a7e58d8254cdea53	janet-module	84efba24fb9a5f1499c7fcaa6100097a
 _md5_=6ff9915d295012399240ac4afa4a6761
