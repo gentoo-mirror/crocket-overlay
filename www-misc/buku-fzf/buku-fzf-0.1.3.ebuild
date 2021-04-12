@@ -15,5 +15,8 @@ KEYWORDS="~amd64"
 
 BDEPEND=">=dev-janet/argparse-0_pre20201201
 	>=dev-janet/sh-0_alpha20200513"
+RDEPEND=">=sys-apps/util-linux-2.35.2
+	>=www-misc/buku-4.5
+	>=app-shells/fzf-0.25.1"
 
 DOCS="README.adoc"
