@@ -3,28 +3,25 @@
 
 EAPI=7
 
+inherit janet-executable
+
 DESCRIPTION="A Dynamic DNS Client written in janet"
 HOMEPAGE="https://gitlab.com/croquet/jddclient"
-SRC_URI="https://gitlab.com/croquet/jddclient/-/archive/${PV}/${P}.tar.bz2"
+SRC_URI="https://gitlab.com/croquet/jddclient/-/archive/v${PV}/${PN}-v${PV}.tar.bz2 -> ${P}.tar.bz2"
 
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="dev-lang/janet
-	dev-janet/argparse
+BDEPEND="dev-janet/argparse
 	dev-janet/sh
 	dev-janet/http"
 
 DOCS="README.adoc"
-
-src_compile() {
-	jpm build || die
-}
+S="${WORKDIR}/${PN}-v${PV}"
 
 src_install() {
-	einstalldocs
-	dobin build/jddclient
+	janet-executable_src_install
 	exeinto /etc/init.d
 	newexe "${FILESDIR}/jddclient-openrc" jddclient
 }
