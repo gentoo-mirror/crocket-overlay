@@ -56,8 +56,8 @@ media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used 
 net-dns/jddclient 0.2.1: A Dynamic DNS Client written in janet
 net-misc/electron-cash 4.2.3: Lightweight Bitcoin Cash client (BCH fork of Electrum)
 net-p2p/haven-offshore 1.3.0c: Haven protocol(XHV) command line wallet
-net-p2p/pirate-light-cli 1.0.0_p20191124: Pirate Light CLI - A command line Pirate Wallet light client.
 net-p2p/piratepaperwallet 0.3.0-r1: a Pirate Sapling paper wallet generator that can run completely offline
+net-p2p/piratewallet-light-cli 1.3.1_p20210315: command-line pirate chain light wallet
 net-p2p/piratewallet-lite 1.0.4: This is z-Addr first, Sapling compatible wallet lightwallet for Pirate.
 net-p2p/stig 0.11.2: TUI and CLI for the BitTorrent client Transmission
 sys-apps/flashbench 20161130: Testing tool for managed flash memory devices
