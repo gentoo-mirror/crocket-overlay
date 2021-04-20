@@ -65,4 +65,5 @@ media-sound/pyradio:vlc -
 net-misc/electron-cash:qrcode - Enable QR code scanning with media-gfx/zbar
 net-p2p/haven-offshore:ldns - SSL toolkit
 net-p2p/haven-offshore:lzma - lzma support in unwind
+net-p2p/haven-offshore:offline - Enable offline signing. Don't enable on online machines.
 net-p2p/haven-offshore:xml - xml support through dev-libs/expat
