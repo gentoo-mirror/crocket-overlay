@@ -8,18 +8,22 @@ inherit cmake
 DESCRIPTION="Haven protocol(XHV) command line wallet"
 HOMEPAGE="https://github.com/haven-protocol-org/haven-offshore"
 BLOCKCHAIN_EXPLORER="96034872be8a8be14e384d94b99508acc4ba3105"
+BLOCKCHAIN_EXPLORER_P="haven-blockchain-explorer-${BLOCKCHAIN_EXPLORER}"
 RANDOMX="7567cef4c6192fb5356bbdd7db802be77be0439b"
+RANDOMX_P="randomx-${RANDOMX}"
 MINIUPNP="4c700e09526a7d546394e85628c57e9490feefa0"
+MINIUPNP_P="miniupnp-${MINIUPNP}"
 SRC_URI="https://github.com/haven-protocol-org/haven-offshore/archive/v${PV}.tar.gz -> ${P}.tar.gz
-	https://github.com/haven-protocol-org/haven-blockchain-explorer/archive/${BLOCKCHAIN_EXPLORER}.tar.gz -> ${P}-haven-blockchain-explorer.tar.gz
-	https://github.com/tevador/RandomX/archive/${RANDOMX}.tar.gz -> ${P}-randomx.tar.gz
-	https://github.com/monero-project/miniupnp/archive/${MINIUPNP}.tar.gz -> ${P}-miniupnp.tar.gz
+	https://github.com/haven-protocol-org/haven-blockchain-explorer/archive/${BLOCKCHAIN_EXPLORER}.tar.gz -> ${BLOCKCHAIN_EXPLORER_P}.tar.gz
+	https://github.com/tevador/RandomX/archive/${RANDOMX}.tar.gz -> ${RANDOMX_P}.tar.gz
+	https://github.com/monero-project/miniupnp/archive/${MINIUPNP}.tar.gz -> ${MINIUPNP_P}.tar.gz
 	https://github.com/monero-project/monero/archive/v0.16.0.3.tar.gz -> monero-0.16.0.3.tar.gz"
 LICENSE="GPL-3"
+RESTRICT="mirror"
 
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="lzma unwind +readline ldns xml doc test"
+IUSE="lzma unwind +readline ldns xml doc test offline"
 
 CDEPEND=">=dev-libs/boost-1.75.0:=[nls,threads]
 	>=net-libs/zeromq-3.0.0:=[pgm]
@@ -30,8 +34,7 @@ CDEPEND=">=dev-libs/boost-1.75.0:=[nls,threads]
 	readline? ( >=sys-libs/readline-6.3.0:= )
 	ldns? ( >=net-libs/ldns-1.6.17:= )
 	unwind? (
-		lzma? ( sys-libs/libunwind:=[lzma] )
-		!lzma? ( sys-libs/libunwind:= )
+		sys-libs/libunwind:=[lzma?]
 	)
 	xml? ( >=dev-libs/expat-1.1:= )"
 DEPEND="${CDEPEND}
@@ -46,7 +49,9 @@ BDEPEND=">=sys-devel/gcc-4.7.3
 	virtual/pkgconfig"
 DOCS="README.md"
 CMAKE_USE_DIR="${S}/monero"
-PATCHES=( "${FILESDIR}/monero-0.16.0.3-no-git.patch" )
+PATCHES=(
+	"${FILESDIR}/monero-0.16.0.3-no-git.patch"
+)
 
 src_unpack() {
 	default
@@ -85,6 +90,10 @@ src_prepare() {
 	done
 	cd ..
 	sed -i -e "s/@HAVENTAG@/${PV}/g" monero/src/version.cpp.in
+
+	if use offline; then
+		patch -p1 < "${FILESDIR}/haven-offshore-1.3.0c-offline.patch"
+	fi
 }
 
 src_configure() {
