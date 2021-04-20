@@ -5,5 +5,6 @@
     <flag name="ldns">SSL toolkit</flag>
     <flag name="lzma">lzma support in unwind</flag>
     <flag name="xml">xml support through dev-libs/expat</flag>
+    <flag name="offline">Enable offline signing. Don't enable on online machines.</flag>
   </use>
 </pkgmetadata>
