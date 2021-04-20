@@ -1,0 +1,44 @@
+diff -ur zecwalletlitelib-0.1.0/Cargo.toml zecwalletlitelib-0.1.0-gentoo/Cargo.toml
+--- zecwalletlitelib-0.1.0/Cargo.toml	2021-03-15 11:34:45.000000000 +0900
++++ zecwalletlitelib-0.1.0-gentoo/Cargo.toml	2021-04-20 16:44:40.765431968 +0900
+@@ -46,34 +46,28 @@
+ reqwest = { version = "0.10.8", features = ["blocking", "json"] }
+ 
+ [dependencies.bellman]
+-git = "https://github.com/zerocurrencycoin/librustzcash.git"
+-rev = "2981c4d2860f7cd73282fed885daac0323ff0280"
++versikon = "0.6.0"
+ default-features = false
+ features = ["groth16", "multicore"]
+ 
+ [dependencies.pairing]
+-git = "https://github.com/zerocurrencycoin/librustzcash.git"
+-rev = "2981c4d2860f7cd73282fed885daac0323ff0280"
++version = "0.16.0"
+ 
+ [dependencies.zcash_client_backend]
+-git = "https://github.com/zerocurrencycoin/librustzcash.git"
+-rev = "2981c4d2860f7cd73282fed885daac0323ff0280"
++version = "0.2.0"
+ default-features = false
+ 
+ [dependencies.zcash_primitives]
+-git = "https://github.com/zerocurrencycoin/librustzcash.git"
+-rev = "2981c4d2860f7cd73282fed885daac0323ff0280"
++version = "0.2.0"
+ default-features = false
+ features = ["transparent-inputs"]
+ 
+ [dependencies.zcash_proofs]
+-git = "https://github.com/zerocurrencycoin/librustzcash.git"
+-rev = "2981c4d2860f7cd73282fed885daac0323ff0280"
++version = "0.2.0"
+ default-features = false
+ 
+ [dependencies.ff]
+-git = "https://github.com/zerocurrencycoin/librustzcash.git"
+-rev = "2981c4d2860f7cd73282fed885daac0323ff0280"
++version = "0.6.0"
+ features = ["ff_derive"]
+ 
+ [build-dependencies]
