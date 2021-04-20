@@ -132,7 +132,7 @@ winapi-i686-pc-windows-gnu-0.4.0
 winapi-x86_64-pc-windows-gnu-0.4.0
 "
 
-inherit cargo
+inherit cargo cargo-utils
 
 DESCRIPTION="a Pirate Sapling paper wallet generator that can run completely offline"
 HOMEPAGE="https://github.com/PirateNetwork/piratepaperwallet"
@@ -142,14 +142,12 @@ LIBRUSTZCASH_P="librustzcash-${LIBRUSTZCASH}"
 SRC_URI="https://github.com/PirateNetwork/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
 	https://github.com/zcash/librustzcash/archive/${LIBRUSTZCASH}.tar.gz -> ${LIBRUSTZCASH_P}.tar.gz
 	$(cargo_crate_uris ${CRATES})"
-RESTRICT="mirror"
+
+RESTRICT="primaryuri"
 LICENSE="0BSD Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD-2 BSD CC0-1.0 ISC MIT Unlicense ZLIB"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="test"
-
-DEPEND=""
-RDEPEND=""
 
 DOCS="README.md"
 PATCHES="${FILESDIR}/piratepaperwallet-0.3.0.patch"
@@ -157,7 +155,7 @@ PATCHES="${FILESDIR}/piratepaperwallet-0.3.0.patch"
 src_prepare() {
 	default
 
-	cd "${WORKDIR}/librustzcash-${LIBRUSTZCASH}"
+	cd "${WORKDIR}/${LIBRUSTZCASH_P}"
 	mv ff/ff_derive "${ECARGO_VENDOR}/ff_derive-0.3.0"
 	mv ff "${ECARGO_VENDOR}/ff-0.4.0"
 	mv group "${ECARGO_VENDOR}/group-0.1.0"
@@ -166,21 +164,11 @@ src_prepare() {
 	mv sapling-crypto "${ECARGO_VENDOR}/sapling-crypto-0.0.1"
 	mv zcash_primitives "${ECARGO_VENDOR}/zcash_primitives-0.0.0"
 
-	librustzcash_pkgs=("ff_derive-0.3.0" "ff-0.4.0" "group-0.1.0"
-					   "pairing-0.14.2" "bellman-0.1.0" "sapling-crypto-0.0.1"
-					   "zcash_primitives-0.0.0")
-	for pkg in "${librustzcash_pkgs[@]}"
-	do
-		cd "${ECARGO_VENDOR}"
-		tar -cf "${pkg}.tar.gz" "${pkg}"
-		shasum=$(sha256sum "${pkg}.tar.gz" | cut -d ' ' -f 1)
-		cat <<- EOF > ${ECARGO_VENDOR}/${pkg}/.cargo-checksum.json
-		{
-			"package": "${shasum}",
-			"files": {}
-		}
-		EOF
-	done
+	librustzcash_pkgs=(
+		"ff_derive-0.3.0" "ff-0.4.0" "group-0.1.0" "pairing-0.14.2"
+		"bellman-0.1.0" "sapling-crypto-0.0.1" "zcash_primitives-0.0.0"
+	)
+	cargo-utils_gen_checksum "${librustzcash_pkgs[@]}"
 }
 
 src_compile() {
