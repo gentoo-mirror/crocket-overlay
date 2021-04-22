@@ -19,6 +19,7 @@ dev-janet/utf8 0.3: Utility functions for UTF-8
 dev-janet/xmrig 0.1: A janet library for xmrig HTTP API
 dev-lang/janet 1.15.2 1.15.4: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
+dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
 dev-python/JACK-Client 0.5.1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/asynctest 0.13.0: Enhance standard unittest package with features for testing asyncio libraries
 dev-python/click-didyoumean 0.0.3_p20200930: Enable git-like did-you-mean feature in click.
