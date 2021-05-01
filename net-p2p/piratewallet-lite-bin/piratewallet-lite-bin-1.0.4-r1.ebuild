@@ -18,7 +18,7 @@ RDEPEND="dev-qt/qtcore:5
 	dev-qt/qtwidgets:5
 	dev-qt/qtwebsockets:5
 	dev-libs/openssl:="
-S="${WORKDIR}/${PN}-v${PV}"
+S="${WORKDIR}/piratewallet-lite-v${PV}"
 DOCS="README.md"
 
 src_install() {
