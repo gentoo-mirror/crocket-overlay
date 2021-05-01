@@ -42,7 +42,13 @@ DEPEND="
 	systemd? ( >=sys-apps/systemd-239[policykit] )
 	wallpapers? ( x11-libs/gdk-pixbuf:2[jpeg] )
 	X? ( x11-libs/libxcb:0= )
-	tray? ( >=sys-libs/basu-0.2.0:= )
+	tray? (
+		!systemd? (
+			!elogind? (
+				>=sys-libs/basu-0.2.0:=
+			)
+		)
+	)
 "
 if [[ ${PV} == 9999 ]]; then
 	DEPEND+="~gui-libs/wlroots-9999:=[elogind=,seatd=,systemd=,X=]"
