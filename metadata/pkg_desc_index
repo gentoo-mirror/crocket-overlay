@@ -35,6 +35,7 @@ dev-python/termdown 1.17.0-r1: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
 gui-apps/emptty 0.5.0 0.5.1: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2: A screen color temperature adjusting software
+gui-apps/mako 1.4.1-r1: A lightweight notification daemon for Wayland. Works on Sway.
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
 gui-wm/sway 1.6-r2: i3-compatible Wayland window manager
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome

@@ -8,6 +8,7 @@ app-misc/anki:sound - Enable support for adding sound to cards
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
 gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
+gui-apps/mako:icons - Enable support for icons
 gui-apps/swaylock:fish-completion - Enable fish completion support
 gui-apps/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 gui-apps/swaylock:man - Build and install man pages
