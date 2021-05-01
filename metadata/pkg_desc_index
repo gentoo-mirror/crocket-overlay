@@ -36,6 +36,7 @@ dev-python/urwidtrees 1.0.3: Tree widgets for urwid
 gui-apps/emptty 0.5.0 0.5.1: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2: A screen color temperature adjusting software
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
+gui-wm/sway 1.6-r1: i3-compatible Wayland window manager
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
 media-fonts/font-logos 0.14: An icon font containing logos of linux distributions and other softwares.
 media-fonts/ipa 003.03: Fixed-width japanese fonts and variable-width japanese fonts
@@ -66,6 +67,7 @@ net-p2p/stig 0.11.2: TUI and CLI for the BitTorrent client Transmission
 sys-apps/flashbench 20161130: Testing tool for managed flash memory devices
 sys-auth/pam-gnupg 0.2_p20201125: Unlock GnuPG keys on login
 sys-fs/sanoid 2.0.3 2.1.0: Policy-driven snapshot management and replication tools.
+sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 www-client/brave-bin 1.9.72: Brave Web Browser
 www-misc/buku-fzf 0.2.3: A buku bookmark browser
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM

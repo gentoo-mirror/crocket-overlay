@@ -11,6 +11,18 @@ gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
 gui-apps/swaylock:fish-completion - Enable fish completion support
 gui-apps/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 gui-apps/swaylock:man - Build and install man pages
+gui-wm/sway:X - Enable support for X11 applications (XWayland)
+gui-wm/sway:elogind - Enable support for rootless session via elogind
+gui-wm/sway:fish-completion - Enable fish completion support
+gui-wm/sway:seatd - Enable support for rootless session via sys-auth/seatd
+gui-wm/sway:swaybar - Install 'swaybar': sway's status bar component
+gui-wm/sway:swaybg - Install 'swaybg': allows to set a desktop background image
+gui-wm/sway:swayidle - Install 'swayidle': idle manager to run commands when user is inactive
+gui-wm/sway:swaylock - Install 'swaylock': sway's screen locker
+gui-wm/sway:swaymsg - Install 'swaymsg': tool for communicating with a running sway instance
+gui-wm/sway:swaynag - Install 'swaynag': shows a message with buttons
+gui-wm/sway:tray - Enable support for StatusNotifierItem tray specification
+gui-wm/sway:wallpapers - Install sway's default wallpaper image
 media-fonts/nerd-fonts-symbols:1000-em - Use 1000-em version of nerd-fonts-symbols
 media-fonts/nerd-fonts-symbols:2048-em - Use 2048-em version of nerd-fonts-symbols
 media-gfx/yacreader:qrencode - Support for encoding QR codes
@@ -67,3 +79,4 @@ net-p2p/haven-offshore:ldns - SSL toolkit
 net-p2p/haven-offshore:lzma - lzma support in unwind
 net-p2p/haven-offshore:offline - Enable offline signing. Don't enable on online machines.
 net-p2p/haven-offshore:xml - xml support through dev-libs/expat
+sys-libs/basu:caps - Depend on sys-libs/libcap
