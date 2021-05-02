@@ -1,4 +1,4 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 2020-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -32,16 +32,16 @@ src_configure() {
 }
 
 pkg_postinst() {
-	einfo
-	einfo "To enable pam-gnupg you must put the lines:"
-	einfo "'auth    optional pam_gnupg.so' and"
-	einfo "'session optional pam_gnupg.so' into one of these files."
-	einfo
-	einfo "/etc/pam.d/lightdm, /etc/pam.d/lxdm, /etc/pam.d/sddm, etc."
-	einfo
-	einfo "For tty login use the file: /etc/pam.d/system-local-login"
-	einfo
-	einfo "See <https://github.com/cruegge/pam-gnupg#usage>"
-	einfo "for more detailed usage instructions."
-	einfo
+	elog
+	elog "To enable pam-gnupg you must put the lines:"
+	elog "'auth    optional pam_gnupg.so' and"
+	elog "'session optional pam_gnupg.so' into one of these files."
+	elog
+	elog "/etc/pam.d/lightdm, /etc/pam.d/lxdm, /etc/pam.d/sddm, etc."
+	elog
+	elog "For tty login use the file: /etc/pam.d/system-local-login"
+	elog
+	elog "See <https://github.com/cruegge/pam-gnupg#usage>"
+	elog "for more detailed usage instructions."
+	elog
 }
