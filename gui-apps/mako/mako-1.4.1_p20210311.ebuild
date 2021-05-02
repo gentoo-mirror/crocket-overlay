@@ -7,14 +7,9 @@ inherit meson
 
 DESCRIPTION="A lightweight notification daemon for Wayland. Works on Sway."
 HOMEPAGE="https://github.com/emersion/mako"
-
-if [[ ${PV} == 9999 ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/emersion/${PN}.git"
-else
-	SRC_URI="https://github.com/emersion/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64"
-fi
+COMMIT="e5b5d56aaaf8390c97a17c208f950803538e7294"
+SRC_URI="https://github.com/emersion/mako/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
+KEYWORDS="~amd64"
 
 LICENSE="MIT"
 SLOT="0"
@@ -42,6 +37,7 @@ BDEPEND="
 	virtual/pkgconfig
 	>=app-text/scdoc-1.9.7
 "
+S="${WORKDIR}/${PN}-${COMMIT}"
 
 src_configure() {
 	local emesonargs=(
