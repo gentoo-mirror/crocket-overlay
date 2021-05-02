@@ -33,7 +33,7 @@ src_configure() {
 
 pkg_postinst() {
 	elog
-	elog "To enable pam-gnupg you must put the lines:"
+	elog "To enable pam-gnupg, you must put the lines:"
 	elog "'auth    optional pam_gnupg.so' and"
 	elog "'session optional pam_gnupg.so' into one of these files."
 	elog
