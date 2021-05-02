@@ -37,6 +37,6 @@ pkg_postinst() {
 	elog "'-session optional pam_rundir.so' into"
 	elog "/etc/pam.d/system-local-login"
 	elog
-	elog "For details, refer to `man pam_rundir`"
+	elog "For details, refer to 'man pam_rundir'"
 	elog
 }
