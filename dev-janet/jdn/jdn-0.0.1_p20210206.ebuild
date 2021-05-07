@@ -17,5 +17,5 @@ KEYWORDS="~amd64"
 
 DEPEND=""
 RDEPEND=""
-S="${WORKDIR}/${PN}-${COMMIT}"
+S="${WORKDIR}/janet-${PN}-${COMMIT}"
 DOCS="README.md"
