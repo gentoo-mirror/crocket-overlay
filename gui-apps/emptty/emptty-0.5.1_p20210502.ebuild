@@ -12,7 +12,8 @@ EGO_SUM=(
 	"github.com/msteinert/pam v0.0.0-20200810204841-913b8f8cdf8b/go.mod"
 )
 go-module_set_globals
-SRC_URI="https://github.com/tvrzna/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
+COMMIT="a9f7d7de02680d07080fdda389364cd2c1fb3c35"
+SRC_URI="https://github.com/tvrzna/emptty/archive/${COMMIT}.tar.gz -> ${P}.tar.gz
 	${EGO_SUM_SRC_URI}"
 
 LICENSE="MIT"
@@ -25,6 +26,7 @@ DEPEND="sys-libs/pam
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.14"
 DOCS="README.md SAMPLES.md res/conf"
+S="${WORKDIR}/${PN}-${COMMIT}"
 
 src_compile() {
 	go build || die
