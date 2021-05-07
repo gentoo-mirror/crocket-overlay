@@ -14,7 +14,7 @@ dev-janet/posix-spawn 0_alpha20200512 0_alpha20210217: A process API for janet w
 dev-janet/process 0_alpha20200509: A janet module for running child processes.
 dev-janet/repl-tools 0.2: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
-dev-janet/sh 0_alpha20200513: A janet module for shell functions.
+dev-janet/sh 0_alpha20210507: A janet module for shell functions.
 dev-janet/utf8 0.3: Utility functions for UTF-8
 dev-janet/xmrig 0.1: A janet library for xmrig HTTP API
 dev-lang/janet 1.15.4 1.15.5: A functional and imperative language for scripting and embedding
@@ -33,7 +33,7 @@ dev-python/python-osc 1.7.3: Open Sound Control server and client in pure python
 dev-python/td-watson 1.10.0_p20210304 2.0.0: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0-r1: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3: Tree widgets for urwid
-gui-apps/emptty 0.5.0 0.5.1: Dead simple CLI Display Manager on TTY
+gui-apps/emptty 0.5.1_p20210502: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2: A screen color temperature adjusting software
 gui-apps/mako 1.4.1_p20210311: A lightweight notification daemon for Wayland. Works on Sway.
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland

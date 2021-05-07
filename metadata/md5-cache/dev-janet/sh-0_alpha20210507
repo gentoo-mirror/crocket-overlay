@@ -7,7 +7,8 @@ INHERIT=janet-module
 KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=dev-janet/posix-spawn-0_alpha20200512 dev-lang/janet
+RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://github.com/andrewchambers/janet-sh/archive/4226a4cae548fde38358aa1fdb6d6a90bf5fe175.tar.gz -> janet-sh-0_alpha20200513.tar.gz
+SRC_URI=https://github.com/andrewchambers/janet-sh/archive/7f83f6f717e62ea0ecdbade92daed326d734c89f.tar.gz -> janet-sh-0_alpha20210507.tar.gz
 _eclasses_=janet-functions	60f39b01f0502976a7e58d8254cdea53	janet-module	84efba24fb9a5f1499c7fcaa6100097a
-_md5_=c7a5ef7b276fa421a34877419da11095
+_md5_=ad08a5c515cb1e051fc1b3c0b4992277
