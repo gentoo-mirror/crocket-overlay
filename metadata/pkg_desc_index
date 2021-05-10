@@ -2,6 +2,7 @@ app-arch/unarr 1.1.0_pre20200201-r1: A lightweight decompression library with su
 app-misc/anki 2.1.16-r6: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 15 17: a terminal file manager written in Go
+app-misc/simple-dosbox-launcher 0.1.0: It launches an executable in an archive file with dosbox.
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-office/calcurse 4.6.0: a text-based calendar and scheduling application
 app-shells/peco 0.5.8_p20210315: Simplistic interactive filtering tool
