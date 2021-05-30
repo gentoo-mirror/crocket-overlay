@@ -37,6 +37,7 @@ DEPEND="${RDEPEND}
 		>=dev-python/vcrpy-4.0.2[${PYTHON_USEDEP}]
 	)
 "
+S="${WORKDIR}/${PN}-${COMMIT}"
 
 python_prepare_all() {
 	# Remove support for bukuserver - complex depgraph which isn't all
