@@ -13,11 +13,12 @@ LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64"
 
+RESTRICT="primaryuri"
 BDEPEND=">=dev-janet/argparse-0_pre20201201
 	>=dev-janet/sh-0_alpha20200513"
 RDEPEND=">=sys-apps/util-linux-2.35.2
 	>=sys-apps/coreutils-8.32
-	>=www-misc/buku-4.5
+	>=www-misc/buku-4.5_p20210530
 	>=app-shells/fzf-0.25.1"
 
 DOCS="README.adoc"
