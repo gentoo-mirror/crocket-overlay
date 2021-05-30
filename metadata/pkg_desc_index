@@ -19,7 +19,7 @@ dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0_alpha20210507: A janet module for shell functions.
 dev-janet/utf8 0.3: Utility functions for UTF-8
 dev-janet/xmrig 0.1: A janet library for xmrig HTTP API
-dev-lang/janet 1.15.4 1.15.5: A functional and imperative language for scripting and embedding
+dev-lang/janet 1.15.5 1.16.0: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
 dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
@@ -74,7 +74,7 @@ sys-fs/sanoid 2.0.3 2.1.0: Policy-driven snapshot management and replication too
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 www-client/brave-bin 1.9.72: Brave Web Browser
 www-misc/buku 4.5_p20210530: Powerful command-line bookmark manager
-www-misc/buku-fzf 0.2.3 0.3.0: A buku bookmark browser
+www-misc/buku-fzf 0.3.1: A buku bookmark browser
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM
 x11-misc/dmenu 4.9_p20190303: a generic, highly customizable, and efficient menu for the X Window System
 x11-misc/tbsm 0.5: A pure bash session or application launcher. Inspired by cdm, tdm and krunner
