@@ -35,7 +35,7 @@ dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure pyt
 dev-python/td-watson 2.0.0 2.0.1: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0-r2: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
-gui-apps/emptty 0.5.1_p20210502: Dead simple CLI Display Manager on TTY
+gui-apps/emptty 0.5.1_p20210502 0.5.2: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
 gui-apps/mako 1.4.1_p20210311: A lightweight notification daemon for Wayland. Works on Sway.
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
