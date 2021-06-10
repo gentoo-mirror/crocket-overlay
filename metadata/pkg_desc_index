@@ -1,4 +1,5 @@
 app-arch/unarr 1.1.0_pre20200201-r1: A lightweight decompression library with support for rar, tar and zip archives
+app-editors/kakoune 2020.09.01: Modal editor inspired by vim
 app-misc/anki 2.1.16-r7: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 15 17: a terminal file manager written in Go
