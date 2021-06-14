@@ -76,7 +76,7 @@ sys-fs/sanoid 2.0.3 2.1.0: Policy-driven snapshot management and replication too
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 www-client/brave-bin 1.9.72: Brave Web Browser
 www-misc/buku 4.5_p20210530: Powerful command-line bookmark manager
-www-misc/buku-fzf 0.3.6: A buku bookmark browser
+www-misc/buku-fzf 0.3.7-r1: A buku bookmark browser
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM
 x11-misc/dmenu 4.9_p20190303: a generic, highly customizable, and efficient menu for the X Window System
 x11-misc/tbsm 0.5: A pure bash session or application launcher. Inspired by cdm, tdm and krunner
