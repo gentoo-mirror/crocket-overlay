@@ -18,6 +18,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 DEPEND="
 	>=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/click-didyoumean[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
