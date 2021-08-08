@@ -52,7 +52,6 @@ media-fonts/nerd-fonts-symbols 2.1.0_p20201201: Symbols-only fonts from nerd fon
 media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
-media-sound/cantata 2.4.0_pre20200110-r1: Featureful and configurable Qt client for the music player daemon (MPD)
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
 media-sound/mpd 0.22_pre20200121-r2: The Music Player Daemon (mpd)
 media-sound/ncmpc 0.39: Ncurses client for the Music Player Daemon (MPD)
