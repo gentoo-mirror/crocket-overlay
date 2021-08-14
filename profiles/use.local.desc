@@ -29,10 +29,6 @@ media-fonts/nerd-fonts-symbols:2048-em - Use 2048-em version of nerd-fonts-symbo
 media-gfx/yacreader:qrencode - Support for encoding QR codes
 media-libs/zita-alsa-pcmi:tools - Install executables
 media-libs/zita-resampler:tools - Install executables
-media-sound/cantata:cdio - Use dev-libs/libcdio-paranoia for CD support (instead of cdparanoia)
-media-sound/cantata:http-server - Enable internal HTTP server to play non-MPD files
-media-sound/cantata:replaygain - Enable ReplayGain support, for relative volume adjustments
-media-sound/cantata:streaming - Enable playback of MPD HTTP streams using LibVLC (media-video/vlc)
 media-sound/mpd:cdio - Use libcdio for ISO9660 parsing support
 media-sound/mpd:curl - Support for web stream listening
 media-sound/mpd:eventfd - Use the eventfd function in MPD's event loop
