@@ -20,7 +20,7 @@ dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0_alpha20210507: A janet module for shell functions.
 dev-janet/utf8 0.3: Utility functions for UTF-8
 dev-janet/xmrig 0.1: A janet library for xmrig HTTP API
-dev-lang/janet 1.16.0 1.16.1: A functional and imperative language for scripting and embedding
+dev-lang/janet 1.16.1 1.17.0: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
 dev-libs/bemenu 0.6.1_p20210607: dmenu clone for wayland
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
