@@ -22,7 +22,7 @@ RDEPEND="${CDEPEND}"
 DOCS=( "AUTHORS" "HISTORY" "README.md" )
 
 src_configure() {
-	./configure
+	./configure --prefix="${EPREFIX}"/usr --with-parentdir=/run/user
 }
 
 src_install() {
