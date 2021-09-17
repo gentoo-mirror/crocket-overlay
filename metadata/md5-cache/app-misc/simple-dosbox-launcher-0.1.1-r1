@@ -6,9 +6,9 @@ HOMEPAGE=https://github.com/crocket/simple-dosbox-launcher
 INHERIT=janet-executable
 KEYWORDS=~amd64
 LICENSE=GPL-3+
-RDEPEND=>=sys-fs/fuse-2.9.9-r1 >=sys-apps/coreutils-8.32 >=app-arch/atool-0.39.0 >=sys-fs/unionfs-fuse-2.1 >=games-emulation/dosbox-0.74.3
+RDEPEND=>=sys-fs/fuse-2.9.9-r1 >=sys-apps/coreutils-8.32 >=app-arch/atool-0.39.0 >=sys-fs/unionfs-fuse-2.1 || ( games-emulation/dosbox-staging games-emulation/dosbox )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/crocket/simple-dosbox-launcher/archive/refs/tags/v0.1.1.tar.gz -> simple-dosbox-launcher-0.1.1.tar.gz
 _eclasses_=janet-functions	60f39b01f0502976a7e58d8254cdea53	janet-executable	0d40ce347be0d938a1a6fbceab33da98
-_md5_=462077471f19299ffa15996a24f4040f
+_md5_=56d93c427d19d42cc7347dac84cfb3c1
