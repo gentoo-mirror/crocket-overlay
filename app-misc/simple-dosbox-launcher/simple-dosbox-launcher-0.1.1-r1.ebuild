@@ -18,5 +18,8 @@ RDEPEND=">=sys-fs/fuse-2.9.9-r1
 	>=sys-apps/coreutils-8.32
 	>=app-arch/atool-0.39.0
 	>=sys-fs/unionfs-fuse-2.1
-	>=games-emulation/dosbox-0.74.3"
+	|| (
+	games-emulation/dosbox-staging
+	games-emulation/dosbox
+	)"
 DOCS="README.adoc"
