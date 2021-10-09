@@ -7,6 +7,32 @@ app-misc/anki:recording - Enable support for audio recording
 app-misc/anki:sound - Enable support for adding sound to cards
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
+games-emulation/retroarch:cg - Enable Cg shader support
+games-emulation/retroarch:egl - Enable EGL context support
+games-emulation/retroarch:freetype - Enable FreeType support
+games-emulation/retroarch:gles - Enable GLES support
+games-emulation/retroarch:gles3 - Enable GLES3 support
+games-emulation/retroarch:kms - Enable KMS context support
+games-emulation/retroarch:libusb - Enable LibUSB HID support
+games-emulation/retroarch:materialui - Enable MaterialUI menu
+games-emulation/retroarch:miniupnpc - Enable Mini UPnP client library (for NAT traversal)
+games-emulation/retroarch:opengl_core - 
+games-emulation/retroarch:ozone - Enable ozone menu
+games-emulation/retroarch:parport - 
+games-emulation/retroarch:plain_drm - 
+games-emulation/retroarch:rgui - Enable rgui menu
+games-emulation/retroarch:sdl2 - Enable SDL2 backend (disables SDL 1.x)
+games-emulation/retroarch:sixel - Enable libsixel support
+games-emulation/retroarch:stripes - Enable stripes menu
+games-emulation/retroarch:subtitles - Enable subtitles support
+games-emulation/retroarch:tinyalsa - Enable TinyALSA support
+games-emulation/retroarch:vulkan - Enable vulkan support
+games-emulation/retroarch:xmb - Enable XMB menu
+games-emulation/retroarch:xrandr - Enable xrandr support
+games-emulation/retroarch-assets:materialui - Enable materialui assets
+games-emulation/retroarch-assets:ozone - Emable ozone assets
+games-emulation/retroarch-assets:rgui - Enable rgui assets
+games-emulation/retroarch-assets:xmb - Enable xmb assets
 gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
 gui-apps/mako:icons - Enable support for icons
 gui-apps/swaylock:fish-completion - Enable fish completion support

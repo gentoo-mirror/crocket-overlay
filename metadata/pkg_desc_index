@@ -37,6 +37,17 @@ dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure pyt
 dev-python/td-watson 2.0.1-r1: A wonderful CLI to track your time!
 dev-python/termdown 1.17.0-r2: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
+games-emulation/blastem-libretro 0.6.2_p20210810: A fast and accurate Genesis emulator
+games-emulation/libretro-common-overlays 1_pre20210930: Collection of overlay files for use with RetroArch
+games-emulation/libretro-database 1.9.10: Cheatcode files, content data files and etc. stuff for RetroArch
+games-emulation/libretro-fbneo 1.0.0.02_p20211006: Fork of Final Burn Alpha
+games-emulation/libretro-info 1_pre20210929: Libretro info files required for libretro cores
+games-emulation/libretro-kronos 2.1.5_p20210924: Kronos libretro port
+games-emulation/libretro-mednafen-saturn 1.22.1_p20210918: Standalone port of Mednafen Saturn to the libretro API
+games-emulation/libretro-melonds 0.9.3_p20211001: libretro implementation of melonDS. (NintendoDS)
+games-emulation/libretro-slang-shaders 1_pre20210915: Vulkan GLSL RetroArch shaders
+games-emulation/retroarch 1.9.10: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20210922: Assets needed for RetroArch. Also contains the official branding.
 gui-apps/emptty 0.6.0 0.6.0_p20210913: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
 gui-apps/mako 1.4.1_p20210311: A lightweight notification daemon for Wayland. Works on Sway.

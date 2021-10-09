@@ -1,0 +1,9 @@
+DEFINED_PHASES=prepare
+DESCRIPTION=Assets needed for RetroArch. Also contains the official branding.
+EAPI=7
+HOMEPAGE=https://github.com/libretro/retroarch-assets
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-4.0
+SLOT=0
+SRC_URI=https://github.com/libretro/retroarch-assets/archive/62b5d18b8141113c55d6db768882dc25b30ace45.tar.gz -> retroarch-assets-1_pre20210922.tar.gz
+_md5_=d6aa08fbfef20c358f369b22e033a0e8
