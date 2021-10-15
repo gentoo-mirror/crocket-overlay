@@ -6,19 +6,17 @@
 # crocket <748856+crocket@users.noreply.github.com>
 # @BLURB: An eclass for building and installing janet modules with jpm
 
-inherit janet-functions
+inherit janet-common
 
 EXPORT_FUNCTIONS src_compile src_install
 
-BDEPEND="dev-lang/janet"
+BDEPEND="dev-janet/jpm"
 RDEPEND="dev-lang/janet"
 
 janet-module_src_compile() {
-	ejpm build || die
+	janet-common_compile
 }
 
 janet-module_src_install() {
-	mkdir -p "$(janet-module_janet_path)"
-	ejpm install || die
-	einstalldocs
+	janet-common_install
 }
