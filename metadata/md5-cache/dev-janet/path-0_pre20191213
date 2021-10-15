@@ -1,4 +1,4 @@
-BDEPEND=dev-lang/janet
+BDEPEND=dev-janet/jpm
 DEFINED_PHASES=compile install
 DESCRIPTION=Simple path manipulation module for Janet.
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=dev-lang/janet
 SLOT=0
 SRC_URI=https://github.com/janet-lang/path/archive/d8619960d428c45ebb784600771a7c584ae49431.tar.gz -> janet-path-0_pre20191213.tar.gz
-_eclasses_=janet-functions	60f39b01f0502976a7e58d8254cdea53	janet-module	84efba24fb9a5f1499c7fcaa6100097a
+_eclasses_=janet-common	a74d547dc3ec790af78e61f4db09f229	janet-module	453dfb1f8336cab04855ace2e932393e
 _md5_=7f7ed7e95ccbeb2411db72ec5cff5a40
