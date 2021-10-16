@@ -9,7 +9,7 @@ DESCRIPTION="A buku bookmark browser"
 HOMEPAGE="https://github.com/crocket/buku-fzf"
 SRC_URI="https://github.com/crocket/buku-fzf/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-3+"
+LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
 
