@@ -9,7 +9,7 @@ DESCRIPTION="A janet library for xmrig HTTP API"
 HOMEPAGE="https://github.com/crocket/janet-xmrig"
 SRC_URI="https://github.com/crocket/janet-xmrig/archive/v${PV}.tar.gz -> janet-${P}.tar.gz"
 
-LICENSE="Unlicense"
+LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
 

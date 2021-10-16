@@ -9,7 +9,7 @@ DESCRIPTION="A Dynamic DNS Client written in janet"
 HOMEPAGE="https://gitlab.com/croquet/jddclient"
 SRC_URI="https://gitlab.com/croquet/jddclient/-/archive/v${PV}/${PN}-v${PV}.tar.bz2 -> ${P}.tar.bz2"
 
-LICENSE="GPL-3+"
+LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
 
