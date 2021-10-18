@@ -3,6 +3,7 @@ app-editors/kakoune 2020.09.01: Modal editor inspired by vim
 app-misc/anki 2.1.16-r7: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 15 17: a terminal file manager written in Go
+app-misc/sdl-jstest 0.2.1_p20210422: Test joysticks with SDL
 app-misc/simple-dosbox-launcher 0.1.2: It launches an executable in an archive file with dosbox.
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-office/calcurse 4.7.1: a text-based calendar and scheduling application
