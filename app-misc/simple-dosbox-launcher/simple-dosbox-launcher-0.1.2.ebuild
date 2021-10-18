@@ -8,7 +8,7 @@ inherit janet-executable
 DESCRIPTION="It launches an executable in an archive file with dosbox."
 HOMEPAGE="https://github.com/crocket/simple-dosbox-launcher"
 SRC_URI="https://github.com/crocket/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
-LICENSE="GPL-3+"
+LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"

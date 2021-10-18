@@ -5,11 +5,11 @@ EAPI=7
 
 inherit janet-module
 
-DESCRIPTION="a set of functions for janet REPL."
-HOMEPAGE="https://github.com/crocket/janet-repl-tools"
-SRC_URI="https://github.com/crocket/janet-repl-tools/archive/v${PV}.tar.gz -> janet-${P}.tar.gz"
+DESCRIPTION="Utility functions for UTF-8"
+HOMEPAGE="https://github.com/crocket/janet-utf8"
+SRC_URI="https://github.com/crocket/janet-utf8/archive/v${PV}.tar.gz -> janet-${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
 
