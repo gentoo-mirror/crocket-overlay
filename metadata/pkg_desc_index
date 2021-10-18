@@ -3,7 +3,7 @@ app-editors/kakoune 2020.09.01: Modal editor inspired by vim
 app-misc/anki 2.1.16-r7: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 15 17: a terminal file manager written in Go
-app-misc/simple-dosbox-launcher 0.1.1-r1: It launches an executable in an archive file with dosbox.
+app-misc/simple-dosbox-launcher 0.1.2: It launches an executable in an archive file with dosbox.
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-office/calcurse 4.7.1: a text-based calendar and scheduling application
 app-shells/peco 0.5.8_p20210315: Simplistic interactive filtering tool
@@ -16,12 +16,12 @@ dev-janet/json 0_pre20200117: A JSON module for janet.
 dev-janet/path 0_pre20191213: Simple path manipulation module for Janet.
 dev-janet/posix-spawn 0_alpha20200512 0_alpha20210217: A process API for janet wrapping posix-spawn(3).
 dev-janet/process 0_alpha20200509: A janet module for running child processes.
-dev-janet/repl-tools 0.2: a set of functions for janet REPL.
+dev-janet/repl-tools 0.3: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0_alpha20210507: A janet module for shell functions.
-dev-janet/utf8 0.3: Utility functions for UTF-8
-dev-janet/xmrig 0.1: A janet library for xmrig HTTP API
-dev-lang/janet 1.17.1 1.18.0: A functional and imperative language for scripting and embedding
+dev-janet/utf8 0.4: Utility functions for UTF-8
+dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
+dev-lang/janet 1.18.0 1.18.1: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
 dev-libs/bemenu 0.6.1_p20210607: dmenu clone for wayland
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
@@ -70,7 +70,7 @@ media-sound/ncmpc 0.39: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
-net-dns/jddclient 0.2.1: A Dynamic DNS Client written in janet
+net-dns/jddclient 0.2.2: A Dynamic DNS Client written in janet
 net-misc/electron-cash 4.2.3: Lightweight Bitcoin Cash client (BCH fork of Electrum)
 net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
 net-p2p/haven-offshore 1.3.0c: Haven protocol(XHV) command line wallet
