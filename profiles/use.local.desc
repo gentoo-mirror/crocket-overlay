@@ -8,6 +8,7 @@ app-misc/anki:sound - Enable support for adding sound to cards
 app-misc/sdl-jstest:sdl2 - Support for SDL2
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
+games-emulation/libretro-ppsspp:gles2 - 
 games-emulation/retroarch:cg - Enable Cg shader support
 games-emulation/retroarch:egl - Enable EGL context support
 games-emulation/retroarch:freetype - Enable FreeType support
