@@ -8,23 +8,25 @@ inherit cmake
 DESCRIPTION="rewrite of the Doukutsu Monogatari(Cave Story)"
 HOMEPAGE="https://github.com/nxengine/nxengine-evo"
 SRC_URI="https://github.com/nxengine/nxengine-evo/archive/v${PV}.tar.gz -> ${P}.tar.gz
-	https://www.cavestory.org/downloads/cavestoryen.zip"
+	https://www.cavestory.org/downloads/cavestoryen.zip
+	https://github.com/nxengine/translations/releases/download/v1.14/all.zip -> ${PN}-translations-1.14.zip"
 SLOT="0"
 LICENSE="GPL-3"
 KEYWORDS="~amd64"
 
 DEPEND="
 	media-libs/libpng:=
+	virtual/jpeg
 	media-libs/libsdl2:=
 	media-libs/sdl2-mixer:=
-	media-libs/sdl2-ttf:=
 	media-libs/sdl2-image:=
-	virtual/jpeg
 "
 BDEPEND="app-arch/unzip"
 
 src_install() {
-	cp -r "${WORKDIR}/CaveStory/data" "${WORKDIR}/CaveStory/Doukutsu.exe" . || die
+	cp -r "${WORKDIR}/CaveStory/data" . || die
+	cp "${WORKDIR}/CaveStory/Doukutsu.exe" . || die
+	cp -r "${WORKDIR}/data" . || die
 	"${S}_build"/nxextract || die
 	cmake_src_install
 }
