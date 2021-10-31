@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/nxengine-libretro"
-LIBRETRO_COMMIT_SHA="3eba9836e181f768acd042b2af5904c17434c8bb"
+LIBRETRO_COMMIT_SHA="7a56a9e9b79f91389731567f7858062b8335ff23"
 
 inherit libretro-core
 
@@ -23,8 +23,8 @@ pkg_postinst() {
 	if [[ "${first_install}" == "1" ]]; then
 		elog ""
 		elog "To play a game, like Cave Story, put the gamefiles"
-		elog "to your rgui_browser_directory and select the executable as game"
-		elog ""
+		elog "in your rgui_browser_directory and load Doukutsu.exe"
+		elog "Or, scan the game directory in retroarch."
 		ewarn ""
 	fi
 }
