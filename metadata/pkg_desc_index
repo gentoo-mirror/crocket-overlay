@@ -48,7 +48,7 @@ games-emulation/libretro-info 1_pre20210929: Libretro info files required for li
 games-emulation/libretro-kronos 2.1.5_p20210924: Kronos libretro port
 games-emulation/libretro-mednafen-saturn 1.22.1_p20210918: Standalone port of Mednafen Saturn to the libretro API
 games-emulation/libretro-melonds 0.9.3_p20211001: libretro implementation of melonDS. (NintendoDS)
-games-emulation/libretro-nxengine 1.0.0.6_p20211015: libretro implementation of NXEngine. (Cave Story)
+games-emulation/libretro-nxengine 1.0.0.6_p20211031: libretro implementation of NXEngine. (Cave Story)
 games-emulation/libretro-ppsspp 1.12.3: libretro implementation of PPSSPP
 games-emulation/libretro-slang-shaders 1_pre20210915: Vulkan GLSL RetroArch shaders
 games-emulation/retroarch 1.9.10 1.9.11: Frontend for emulators, game engines and media players
@@ -95,6 +95,7 @@ sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
 www-client/nyxt 2.2.0_p20211014: Nyxt - the internet on your terms.
 www-misc/buku 4.5_p20210530: Powerful command-line bookmark manager
 www-misc/buku-fzf 0.3.11: A buku bookmark browser
+www-misc/bukubrow 5.3.0: bukubrow
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM
 x11-misc/dmenu 4.9_p20190303: a generic, highly customizable, and efficient menu for the X Window System
 x11-misc/tbsm 0.5: A pure bash session or application launcher. Inspired by cdm, tdm and krunner
