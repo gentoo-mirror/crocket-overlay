@@ -31,10 +31,6 @@ games-emulation/retroarch:tinyalsa - Enable TinyALSA support
 games-emulation/retroarch:vulkan - Enable vulkan support
 games-emulation/retroarch:xmb - Enable XMB menu
 games-emulation/retroarch:xrandr - Enable xrandr support
-games-emulation/retroarch-assets:materialui - Enable materialui assets
-games-emulation/retroarch-assets:ozone - Emable ozone assets
-games-emulation/retroarch-assets:rgui - Enable rgui assets
-games-emulation/retroarch-assets:xmb - Enable xmb assets
 gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
 gui-apps/mako:icons - Enable support for icons
 gui-apps/swaylock:fish-completion - Enable fish completion support
