@@ -51,7 +51,7 @@ games-emulation/libretro-mednafen-pce 0.9.48_p20211019: libretro implementation 
 games-emulation/libretro-mednafen-saturn 1.22.1_p20210918: Standalone port of Mednafen Saturn to the libretro API
 games-emulation/libretro-melonds 0.9.3_p20211001: libretro implementation of melonDS. (NintendoDS)
 games-emulation/libretro-nestopia 1.5.1_p20211010: Nestopia libretro port
-games-emulation/libretro-nxengine 1.0.0.6_p20211031: libretro implementation of NXEngine. (Cave Story)
+games-emulation/libretro-nxengine 1.0.0.6_p20211116: libretro implementation of NXEngine. (Cave Story)
 games-emulation/libretro-ppsspp 1.12.3: libretro implementation of PPSSPP
 games-emulation/libretro-slang-shaders 1_pre20210915: Vulkan GLSL RetroArch shaders
 games-emulation/retroarch 1.9.13.2: Frontend for emulators, game engines and media players
