@@ -5,7 +5,7 @@ EAPI=7
 
 DESCRIPTION="dmenu clone for wayland"
 HOMEPAGE="https://github.com/Cloudef/bemenu"
-COMMIT="ca6b9034150bb0886c31b4e9ad934db9ec8fd2e2"
+COMMIT="d593ab27b6444ccc5765edbdefcb182c64181ebf"
 SRC_URI="https://github.com/Cloudef/${PN}/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
