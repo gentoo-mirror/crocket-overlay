@@ -22,9 +22,8 @@ dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0_alpha20210507: A janet module for shell functions.
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
-dev-lang/janet 1.18.0 1.18.1: A functional and imperative language for scripting and embedding
+dev-lang/janet 1.18.1 1.19.0: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
-dev-libs/bemenu 0.6.1_p20210607: dmenu clone for wayland
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
 dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/asynctest 0.13.0-r1: Enhance standard unittest package with features for testing asyncio libraries
@@ -37,7 +36,7 @@ dev-python/pyalsaaudio 0.8.4-r1: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r3: Pure-python FIGlet implementation
 dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure python
 dev-python/td-watson 2.0.1-r1: A wonderful CLI to track your time!
-dev-python/termdown 1.17.0-r2: Countdown timer and stopwatch in your terminal
+dev-python/termdown 1.18.0: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
 games-emulation/blastem-libretro 0.6.2_p20210810: A fast and accurate Genesis emulator
 games-emulation/libretro-common-overlays 1_pre20210930: Collection of overlay files for use with RetroArch
@@ -57,7 +56,8 @@ games-emulation/libretro-slang-shaders 1_pre20210915: Vulkan GLSL RetroArch shad
 games-emulation/retroarch 1.9.13.2: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20211027: Assets needed for RetroArch. Also contains the official branding.
 games-engines/nxengine-evo 2.6.5-r1: rewrite of the Doukutsu Monogatari(Cave Story)
-gui-apps/emptty 0.6.0 0.6.1: Dead simple CLI Display Manager on TTY
+gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
+gui-apps/emptty 0.6.1 0.6.2: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
 gui-apps/mako 1.4.1_p20210311: A lightweight notification daemon for Wayland. Works on Sway.
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland

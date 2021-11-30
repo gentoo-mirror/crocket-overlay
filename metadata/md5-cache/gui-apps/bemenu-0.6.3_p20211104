@@ -11,5 +11,5 @@ RDEPEND=ncurses? ( sys-libs/ncurses:0 ) wayland? ( dev-libs/wayland dev-libs/way
 REQUIRED_USE=|| ( ncurses wayland X )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://github.com/Cloudef/bemenu/archive/ca6b9034150bb0886c31b4e9ad934db9ec8fd2e2.tar.gz -> bemenu-0.6.1_p20210607.tar.gz
-_md5_=4c3206fcc16e9c80ce5559afce22890b
+SRC_URI=https://github.com/Cloudef/bemenu/archive/d593ab27b6444ccc5765edbdefcb182c64181ebf.tar.gz -> bemenu-0.6.3_p20211104.tar.gz
+_md5_=79fd6250000aa3ac7d390235c1415f2a
