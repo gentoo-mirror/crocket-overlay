@@ -95,6 +95,10 @@ media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/freque
 media-sound/pyradio:mplayer - 
 media-sound/pyradio:mpv - 
 media-sound/pyradio:vlc - 
+net-im/dino:gpg - Enable OpenPGP encryption plugin
+net-im/dino:http - Enable HTTP file upload plugin
+net-im/dino:notification-sound - notification sounds plugin
+net-im/dino:omemo - Enable OMEMO encryption plugin
 net-misc/electron-cash:qrcode - Enable QR code scanning with media-gfx/zbar
 net-p2p/haven-offshore:ldns - SSL toolkit
 net-p2p/haven-offshore:lzma - lzma support in unwind

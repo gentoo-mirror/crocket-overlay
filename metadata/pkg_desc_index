@@ -79,6 +79,7 @@ media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspi
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.2: A Dynamic DNS Client written in janet
+net-im/dino 0.3.0_pre20211128: Modern Jabber/XMPP Client using GTK+/Vala
 net-misc/electron-cash 4.2.3: Lightweight Bitcoin Cash client (BCH fork of Electrum)
 net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
 net-p2p/haven-offshore 1.3.0c: Haven protocol(XHV) command line wallet
