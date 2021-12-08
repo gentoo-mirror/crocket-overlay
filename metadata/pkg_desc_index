@@ -31,6 +31,7 @@ dev-python/click-didyoumean 0.0.3_p20200930: Enable git-like did-you-mean featur
 dev-python/colour 0.1.5-r4: Python color representations manipulation library (RGB, HSL, web, ...)
 dev-python/d2to1 0.2.12_p1-r1: It converts distutils2's setup.cfg to setuptools' setup.py
 dev-python/i3pystatus 3.35_p20201022 9999: A complete replacement for i3status with many status modules
+dev-python/keyring_pass 0.7.0: app-admin/pass backend for dev-python/keyring
 dev-python/librouteros 3.0.0-r1: Python implementation of routeros api
 dev-python/pyalsaaudio 0.8.4-r1: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r3: Pure-python FIGlet implementation
