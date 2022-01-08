@@ -97,7 +97,7 @@ sys-auth/pam_rundir 1.0.1-r5: A PAM module that provides XDG_RUNTIME_DIR
 sys-fs/sanoid 2.0.3 2.1.0: Policy-driven snapshot management and replication tools.
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
-www-client/nyxt 2.2.0_p20211014: Nyxt - the internet on your terms.
+www-client/nyxt 2.2.3: Nyxt - the internet on your terms.
 www-misc/buku 4.5_p20210530: Powerful command-line bookmark manager
 www-misc/buku-fzf 0.3.11: A buku bookmark browser
 www-misc/bukubrow 5.3.0: bukubrow
