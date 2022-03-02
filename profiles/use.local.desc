@@ -32,7 +32,6 @@ games-emulation/retroarch:vulkan - Enable vulkan support
 games-emulation/retroarch:xmb - Enable XMB menu
 games-emulation/retroarch:xrandr - Enable xrandr support
 gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
-gui-apps/mako:icons - Enable support for icons
 gui-apps/swaylock:fish-completion - Enable fish completion support
 gui-apps/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 gui-apps/swaylock:man - Build and install man pages

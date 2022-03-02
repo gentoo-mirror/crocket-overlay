@@ -1,6 +1,6 @@
 app-arch/unarr 1.1.0_pre20200201-r1: A lightweight decompression library with support for rar, tar and zip archives
 app-editors/kakoune 2020.09.01: Modal editor inspired by vim
-app-misc/anki 2.1.16-r7: A spaced-repetition memory training program (flash cards)
+app-misc/anki 2.1.16-r8: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 15 17: a terminal file manager written in Go
 app-misc/sdl-jstest 0.2.1_p20210422: Test joysticks with SDL
@@ -58,9 +58,8 @@ games-emulation/retroarch 1.9.13.2: Frontend for emulators, game engines and med
 games-emulation/retroarch-assets 1_pre20211027: Assets needed for RetroArch. Also contains the official branding.
 games-engines/nxengine-evo 2.6.5-r1: rewrite of the Doukutsu Monogatari(Cave Story)
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
-gui-apps/emptty 0.6.1 0.6.2: Dead simple CLI Display Manager on TTY
+gui-apps/emptty 0.6.2 0.7.0: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
-gui-apps/mako 1.4.1_p20210311: A lightweight notification daemon for Wayland. Works on Sway.
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
 gui-wm/sway 1.6-r2: i3-compatible Wayland window manager
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
@@ -81,6 +80,7 @@ media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.2: A Dynamic DNS Client written in janet
 net-im/dino 0.3.0_pre20211128: Modern Jabber/XMPP Client using GTK+/Vala
+net-misc/aria2p 0.11.1: Command-line tool and Python library to interact with aria2c through JSON-RPC
 net-misc/electron-cash 4.2.3: Lightweight Bitcoin Cash client (BCH fork of Electrum)
 net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
 net-p2p/haven-offshore 1.3.0c: Haven protocol(XHV) command line wallet
