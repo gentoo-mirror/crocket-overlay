@@ -69,6 +69,7 @@ media-fonts/koruri 20210720: Japanese TrueType font based on M+ outline fonts an
 media-fonts/material-design-icons 20200810: Font containing material design icons
 media-fonts/nanum 2018: Korean fonts distributed by naver
 media-fonts/nerd-fonts-symbols 2.1.0_p20201201: Symbols-only fonts from nerd fonts
+media-gfx/vimiv 0.8.0: An image viewer with vim-like keybindings
 media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
