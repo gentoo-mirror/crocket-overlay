@@ -1,0 +1,14 @@
+DEFINED_PHASES=install setup
+DEPEND=dev-lang/rakudo:=
+DESCRIPTION=MD5 Algorithm
+EAPI=8
+HOMEPAGE=https://github.com/cosimo/perl6-digest-md5
+INHERIT=rakudo
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=dev-lang/rakudo:=
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/cosimo/perl6-digest-md5/archive/2194250ff2d50a37f92d4f82fac216729f4eba87.tar.gz -> Digest-MD5-0.05_p20170425.tar.gz
+_eclasses_=rakudo	c298c8b0fe99504a457090c85e69244d
+_md5_=9d6222d020f454bb7b2fec25f381b1e6

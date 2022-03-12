@@ -24,6 +24,7 @@ dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
 dev-lang/janet 1.19.1 1.20.0: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
+dev-lang/rakudo 2022.02-r1: A compiler for the Raku programming language
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
 dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/asynctest 0.13.0-r1: Enhance standard unittest package with features for testing asyncio libraries
@@ -39,6 +40,8 @@ dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure pyt
 dev-python/td-watson 2.0.1-r1: A wonderful CLI to track your time!
 dev-python/termdown 1.18.0: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
+dev-raku/Digest-MD5 0.05_p20170425: MD5 Algorithm
+dev-raku/zef 0.13.7: Raku / Perl6 Module Management
 games-emulation/blastem-libretro 0.6.2_p20210810: A fast and accurate Genesis emulator
 games-emulation/libretro-common-overlays 1_pre20210930: Collection of overlay files for use with RetroArch
 games-emulation/libretro-database 1.9.10: Cheatcode files, content data files and etc. stuff for RetroArch
