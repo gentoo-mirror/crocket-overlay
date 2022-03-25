@@ -1,9 +1,0 @@
-diff -ur PirateWallet-Lite-1.0.4/res/libzecwalletlite/Cargo.toml PirateWallet-Lite-1.0.4-gentoo/res/libzecwalletlite/Cargo.toml
---- PirateWallet-Lite-1.0.4/res/libzecwalletlite/Cargo.toml	2021-04-05 08:59:41.000000000 +0900
-+++ PirateWallet-Lite-1.0.4-gentoo/res/libzecwalletlite/Cargo.toml	2021-04-20 16:09:09.834106569 +0900
-@@ -11,4 +11,4 @@
- [dependencies]
- libc = "0.2.58"
- lazy_static = "1.4.0"
--zecwalletlitelib = { git="https://github.com/piratenetwork/piratewallet-light-cli", rev="5a7848381e93d4874375bddc7117efb73678b94e" }
-+zecwalletlitelib = "0.1.0"
