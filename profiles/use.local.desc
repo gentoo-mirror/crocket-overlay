@@ -96,13 +96,16 @@ media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/freque
 media-sound/pyradio:mplayer - 
 media-sound/pyradio:mpv - 
 media-sound/pyradio:vlc - 
-net-im/dino:gpg - Enable OpenPGP encryption plugin
-net-im/dino:http - Enable HTTP file upload plugin
-net-im/dino:notification-sound - notification sounds plugin
-net-im/dino:omemo - Enable OMEMO encryption plugin
 net-misc/electron-cash:qrcode - Enable QR code scanning with media-gfx/zbar
-net-p2p/haven-offshore:ldns - SSL toolkit
-net-p2p/haven-offshore:lzma - lzma support in unwind
-net-p2p/haven-offshore:offline - Enable offline signing. Don't enable on online machines.
-net-p2p/haven-offshore:xml - xml support through dev-libs/expat
+net-misc/electrum-ltc:audio_modem - Enable plugin to support Audio Modem
+net-misc/electrum-ltc:cli - Enables the CLI interface
+net-misc/electrum-ltc:cosign - Enable plugin to support multisig wallets between multiple Electrum clients
+net-misc/electrum-ltc:digitalbitbox - Enable plugin to support Digital Bitbox hardware wallet
+net-misc/electrum-ltc:email - Enable plugin to support emailing invoices
+net-misc/electrum-ltc:qrcode - Enable QR code scanning with media-gfx/zbar
+net-misc/electrum-ltc:sync - Enable plugin to sync wallet metadata across multiple Electrum clients
+net-misc/electrum-ltc:vkb - Enable plugin for virtual keyboard
+net-p2p/haven-main:ldns - SSL toolkit
+net-p2p/haven-main:lzma - lzma support in unwind
+net-p2p/haven-main:xml - xml support through dev-libs/expat
 sys-libs/basu:caps - Depend on sys-libs/libcap
