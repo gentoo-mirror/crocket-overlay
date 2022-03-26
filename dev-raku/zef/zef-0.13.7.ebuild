@@ -6,12 +6,11 @@ EAPI="8"
 inherit rakudo
 
 DESCRIPTION="Raku / Perl6 Module Management"
-HOMEPAGE="https://github.com/ugexe/zef"
+HOMEPAGE="https://raku.land/github:ugexe/zef"
 SRC_URI="https://github.com/ugexe/zef/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="Artistic-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
 RESTRICT="primaryuri"
 DOCS="README.md"
 
