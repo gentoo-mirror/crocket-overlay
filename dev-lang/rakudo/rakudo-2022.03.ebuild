@@ -20,7 +20,8 @@ LICENSE="Artistic-2"
 SLOT="0"
 # TODO: add USE="javascript" once that's usable in nqp
 IUSE="clang java +moar test"
-RESTRICT="!test? ( test )"
+RESTRICT="!test? ( test )
+	primaryuri"
 REQUIRED_USE="|| ( java moar )"
 
 CDEPEND="~dev-lang/nqp-${PV}:${SLOT}=[java?,moar?,clang=]"
@@ -71,10 +72,10 @@ get_rakudo_repo() {
 
 src_install() {
 	emake DESTDIR="${D}" NQP_JARS="${NQP}" BLD_NQP_JARS="${NQP}" install
-	# install-dist.p6 is required for installing raku modules
+	# install-dist.raku is required for installing raku modules
 	core=$(get_rakudo_repo core)
 	exeinto "$core/tools"
-	newexe tools/install-dist.p6 install-dist.raku
+	doexe tools/install-dist.raku
 	# Make sure directories in site repository are not deleted by emerge
 	site=$(get_rakudo_repo site)
 	keepdir "$site/bin"
