@@ -18,6 +18,7 @@ if [ "$rakudo_do_not_run_tests" == true ]; then
 else
 	BDEPEND="dev-lang/rakudo:=
 		test? ( dev-raku/App-Prove6 )"
+	IUSE="test"
 fi
 RDEPEND="dev-lang/rakudo:="
 
@@ -59,6 +60,7 @@ rakudo_src_compile() {
 }
 
 rakudo_src_install() {
+	einstalldocs
 	env RAKUDO_RERESOLVE_DEPENDENCIES=0 \
 	$rakudo_install --to="${D}$rakudo_vendor" --for=vendor \
 	--from=. --build=False || die

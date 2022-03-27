@@ -13,7 +13,6 @@ SRC_URI="https://github.com/cosimo/perl6-digest-md5/archive/${COMMIT}.tar.gz -> 
 LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
 RESTRICT="primaryuri"
 DOCS="README.md"
 S="${WORKDIR}/perl6-digest-md5-${COMMIT}"
