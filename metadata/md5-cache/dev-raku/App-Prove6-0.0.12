@@ -11,4 +11,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://cpan/authors/id//L/LE/LEONT/Perl6/App-Prove6-0.0.12.tar.gz
 _eclasses_=rakudo	d3df9d98e24043e18402cd54c8914de7
-_md5_=cb208aaf6578f47699619a9c6bc772de
+_md5_=5cc60f8e1f47fbef2164e2ecbd28ca9a
