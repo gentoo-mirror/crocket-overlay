@@ -10,5 +10,5 @@ RDEPEND=dev-raku/TAP dev-raku/Getopt-Long dev-lang/rakudo:=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://cpan/authors/id//L/LE/LEONT/Perl6/App-Prove6-0.0.12.tar.gz
-_eclasses_=rakudo	e24108d828bf3933e389309a65ed41a9
-_md5_=d4525e74d235cc34e73b999daf5c1d63
+_eclasses_=rakudo	d3df9d98e24043e18402cd54c8914de7
+_md5_=cb208aaf6578f47699619a9c6bc772de

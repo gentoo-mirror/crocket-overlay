@@ -11,5 +11,5 @@ RDEPEND=dev-lang/rakudo:=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/cosimo/perl6-digest-md5/archive/2194250ff2d50a37f92d4f82fac216729f4eba87.tar.gz -> Digest-MD5-0.05_p20170425.tar.gz
-_eclasses_=rakudo	e24108d828bf3933e389309a65ed41a9
+_eclasses_=rakudo	d3df9d98e24043e18402cd54c8914de7
 _md5_=90e2ebd6e2bce3367381a935f28355df

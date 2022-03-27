@@ -11,5 +11,5 @@ RDEPEND=dev-lang/rakudo:=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/labster/p6-file-directory-tree/archive/e386a00ecdd5a149c888257feb1715c8825d8545.tar.gz -> File-Directory-Tree-0_pre20220314.tar.gz
-_eclasses_=rakudo	e24108d828bf3933e389309a65ed41a9
+_eclasses_=rakudo	d3df9d98e24043e18402cd54c8914de7
 _md5_=8f6fe189ad4079415517948ec84e1234
