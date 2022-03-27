@@ -4,12 +4,12 @@ DESCRIPTION=Use Perl 5 code in a Raku program
 EAPI=8
 HOMEPAGE=https://raku.land/cpan:NINE/Inline::Perl5
 INHERIT=rakudo
-IUSE=test
+IUSE=test test
 KEYWORDS=~amd64
 LICENSE=Artistic-2
 RDEPEND=>=dev-lang/perl-5.20.0 dev-lang/rakudo:=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://cpan/authors/id//N/NI/NINE/Perl6/Inline-Perl5-0.59.tar.gz
-_eclasses_=rakudo	e90564e6f19bc0d43e31afb202fa35ad
+_eclasses_=rakudo	e24108d828bf3933e389309a65ed41a9
 _md5_=8615e4b3cd71ab37e5e9355255517130

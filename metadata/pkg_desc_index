@@ -1,12 +1,11 @@
 app-arch/unarr 1.1.0_pre20200201-r1: A lightweight decompression library with support for rar, tar and zip archives
-app-editors/kakoune 2020.09.01: Modal editor inspired by vim
-app-misc/anki 2.1.16-r8: A spaced-repetition memory training program (flash cards)
+app-misc/anki 2.1.16-r9: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 15 17: a terminal file manager written in Go
+app-misc/ranger 1.9.3_p202090525: A vim-inspired file manager for the console
 app-misc/sdl-jstest 0.2.1_p20210422: Test joysticks with SDL
 app-misc/simple-dosbox-launcher 0.1.2: It launches an executable in an archive file with dosbox.
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
-app-office/calcurse 4.7.1: a text-based calendar and scheduling application
 app-shells/peco 0.5.8_p20210315: Simplistic interactive filtering tool
 dev-janet/argparse 0_pre20201201: A moderately opinionated argument parser for janet.
 dev-janet/circlet 0_alpha20200616: an HTTP and networking library
@@ -29,6 +28,7 @@ dev-lang/nqp 2022.03: Not Quite Perl, a Raku bootstrapping compiler
 dev-lang/rakudo 2022.03: A compiler for the Raku programming language
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
 dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
+dev-python/asciimatics 1.13.0: Package for curses-like operations, text UIs and ASCII art animations
 dev-python/asynctest 0.13.0-r1: Enhance standard unittest package with features for testing asyncio libraries
 dev-python/click-didyoumean 0.0.3_p20200930: Enable git-like did-you-mean feature in click.
 dev-python/colour 0.1.5-r4: Python color representations manipulation library (RGB, HSL, web, ...)
@@ -36,6 +36,7 @@ dev-python/d2to1 0.2.12_p1-r1: It converts distutils2's setup.cfg to setuptools'
 dev-python/i3pystatus 3.35_p20201022 9999: A complete replacement for i3status with many status modules
 dev-python/keyring_pass 0.7.0: app-admin/pass backend for dev-python/keyring
 dev-python/librouteros 3.0.0-r1: Python implementation of routeros api
+dev-python/maturin 0.7.7: Builds wheels from a rust crate for python 3.5+
 dev-python/pyalsaaudio 0.8.4-r1: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r3: Pure-python FIGlet implementation
 dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure python
@@ -75,12 +76,13 @@ gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
 gui-apps/emptty 0.6.2 0.7.0: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
-gui-wm/sway 1.6-r2: i3-compatible Wayland window manager
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
 media-fonts/font-logos 0.14: An icon font containing logos of linux distributions and other softwares.
 media-fonts/ipa 003.03: Fixed-width japanese fonts and variable-width japanese fonts
+media-fonts/jetbrains-mono 2.242-r1: A free and open-source typeface for developers
 media-fonts/koruri 20210720: Japanese TrueType font based on M+ outline fonts and Open Sans
 media-fonts/material-design-icons 20200810: Font containing material design icons
+media-fonts/mononoki 1.3: a font for programming and code review
 media-fonts/nanum 2018: Korean fonts distributed by naver
 media-fonts/nerd-fonts-symbols 2.1.0_p20201201: Symbols-only fonts from nerd fonts
 media-gfx/vimiv 0.8.0: An image viewer with vim-like keybindings
@@ -89,8 +91,6 @@ media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
 media-sound/mpd 0.22_pre20200121-r2: The Music Player Daemon (mpd)
-media-sound/ncmpc 0.39: Ncurses client for the Music Player Daemon (MPD)
-media-sound/ncmpcpp 0.9_alpha20200112: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pyradio 0.7.4 9999: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.2: A Dynamic DNS Client written in janet
@@ -108,7 +108,6 @@ sys-fs/sanoid 2.0.3 2.1.0: Policy-driven snapshot management and replication too
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
 www-client/nyxt 2.2.3: Nyxt - the internet on your terms.
-www-misc/buku 4.5_p20210530: Powerful command-line bookmark manager
 www-misc/buku-fzf 0.3.11: A buku bookmark browser
 www-misc/bukubrow 5.3.0: bukubrow
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM

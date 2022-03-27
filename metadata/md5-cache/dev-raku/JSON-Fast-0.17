@@ -4,11 +4,12 @@ DESCRIPTION=A naive imperative JSON parser in pure Raku
 EAPI=8
 HOMEPAGE=https://raku.land/cpan:TIMOTIMO/JSON::Fast
 INHERIT=rakudo
+IUSE=test
 KEYWORDS=~amd64
 LICENSE=Artistic-2
 RDEPEND=dev-lang/rakudo:=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://cpan/authors/id//T/TI/TIMOTIMO/Perl6/JSON-Fast-0.17.tar.gz
-_eclasses_=rakudo	e90564e6f19bc0d43e31afb202fa35ad
+_eclasses_=rakudo	e24108d828bf3933e389309a65ed41a9
 _md5_=a35f1e4bcd7d8acdfbac5eecbbd4d02e

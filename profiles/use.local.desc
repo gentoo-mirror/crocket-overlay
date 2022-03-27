@@ -44,18 +44,6 @@ gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
 gui-apps/swaylock:fish-completion - Enable fish completion support
 gui-apps/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 gui-apps/swaylock:man - Build and install man pages
-gui-wm/sway:X - Enable support for X11 applications (XWayland)
-gui-wm/sway:elogind - Enable support for rootless session via elogind
-gui-wm/sway:fish-completion - Enable fish completion support
-gui-wm/sway:seatd - Enable support for rootless session via sys-auth/seatd
-gui-wm/sway:swaybar - Install 'swaybar': sway's status bar component
-gui-wm/sway:swaybg - Install 'swaybg': allows to set a desktop background image
-gui-wm/sway:swayidle - Install 'swayidle': idle manager to run commands when user is inactive
-gui-wm/sway:swaylock - Install 'swaylock': sway's screen locker
-gui-wm/sway:swaymsg - Install 'swaymsg': tool for communicating with a running sway instance
-gui-wm/sway:swaynag - Install 'swaynag': shows a message with buttons
-gui-wm/sway:tray - Enable support for StatusNotifierItem tray specification
-gui-wm/sway:wallpapers - Install sway's default wallpaper image
 media-fonts/nerd-fonts-symbols:1000-em - Use 1000-em version of nerd-fonts-symbols
 media-fonts/nerd-fonts-symbols:2048-em - Use 2048-em version of nerd-fonts-symbols
 media-gfx/yacreader:qrencode - Support for encoding QR codes
@@ -87,19 +75,6 @@ media-sound/mpd:twolame - Support twolame MPEG-2 encoding
 media-sound/mpd:webdav - 
 media-sound/mpd:wildmidi - Enable MIDI support via wildmidi
 media-sound/mpd:zip - Support for ZIP files
-media-sound/ncmpc:async-connect - Enable asynchronous connect
-media-sound/ncmpc:chat-screen - Enable the chat screen
-media-sound/ncmpc:help-screen - Enable the help screen
-media-sound/ncmpc:key-screen - Enable key editor screen
-media-sound/ncmpc:library-screen - Enable library screen
-media-sound/ncmpc:lyrics-screen - Enable lyrics screen
-media-sound/ncmpc:mouse - Enable curses getmouse support
-media-sound/ncmpc:outputs-screen - Enable the outputs screen
-media-sound/ncmpc:search-screen - Enable search screen
-media-sound/ncmpc:song-screen - Enable song viewer screen
-media-sound/ncmpcpp:clock - Enable clock screen
-media-sound/ncmpcpp:outputs - Enable outputs screen
-media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/frequency spectrum modes
 media-sound/pyradio:mplayer - 
 media-sound/pyradio:mpv - 
 media-sound/pyradio:vlc - 
