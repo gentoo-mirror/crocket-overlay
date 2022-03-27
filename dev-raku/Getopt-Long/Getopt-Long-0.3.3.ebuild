@@ -12,7 +12,7 @@ LICENSE="Artistic-2"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
-DOCS="README.md"
+DOCS="README.md Changes"
 
 src_test() {
 	raku -I lib t/basic.t || die
