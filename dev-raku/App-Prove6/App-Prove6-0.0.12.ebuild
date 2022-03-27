@@ -18,9 +18,9 @@ RDEPEND="dev-raku/TAP
 DOCS="README.md"
 
 src_install() {
-  rakudo_src_install
-  rakudo_symlink_bin prove6
-  rakudo_symlink_bin prove6-j
-  rakudo_symlink_bin prove6-js
-  rakudo_symlink_bin prove6-m
+	rakudo_src_install
+	rakudo_symlink_bin prove6
+	rakudo_symlink_bin prove6-j
+	rakudo_symlink_bin prove6-js
+	rakudo_symlink_bin prove6-m
 }
