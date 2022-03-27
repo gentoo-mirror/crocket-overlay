@@ -7,13 +7,15 @@
 
 EXPORT_FUNCTIONS src_compile src_install src_test pkg_setup
 
-# @ECLASS-VARIABLE: rakudo_do_not_run_tests
-# @DESCRIPTION:
-# Set this to true above `inherit rakudo` for packages that shouldn't run tests with
-# dev-raku/App-Prove6.
-rakudo_do_not_run_tests=${rakudo_do_not_run_tests:-false}
+# @ECLASS-VARIABLE: rakudo_test_deps
+# @DESCRIPTION: Packages that shouldn't run tests with dev-raku/App-Prove6
+# @INTERNAL
+declare -A rakudo_test_deps
+rakudo_test_deps[dev-raku/App-Prove6]=1
+rakudo_test_deps[dev-raku/TAP]=1
+rakudo_test_deps[dev-raku/Getopt-Long]=1
 
-if [ "$rakudo_do_not_run_tests" == true ]; then
+if [ ${rakudo_test_deps[${CATEGORY}/${PN}]} ]; then
 	BDEPEND="dev-lang/rakudo:="
 else
 	BDEPEND="dev-lang/rakudo:=
@@ -67,8 +69,6 @@ rakudo_src_install() {
 }
 
 rakudo_src_test() {
-	if [ "$rakudo_do_not_run_tests" == true ]; then
-		return
-	fi
+	[ ${rakudo_test_deps[${CATEGORY}/${PN}]} ] && return
 	prove6 --lib t/ || die
 }
