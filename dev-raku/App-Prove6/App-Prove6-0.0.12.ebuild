@@ -3,7 +3,6 @@
 
 EAPI="8"
 
-rakudo_do_not_run_tests=true
 inherit rakudo
 
 DESCRIPTION="Run tests through a TAP harness."
