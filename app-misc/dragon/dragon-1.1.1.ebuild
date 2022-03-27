@@ -1,7 +1,7 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 DESCRIPTION="Drag and drop source/target for X"
 HOMEPAGE="https://github.com/mwh/dragon"
@@ -15,5 +15,5 @@ RDEPEND="${DEPEND}"
 KEYWORDS="~amd64 ~x86"
 
 src_configure() {
-	sed -i 's|$(HOME)/.local|${ED}/usr|g' Makefile || die
+	sed -i 's|$(HOME)/.local|${ED%/}/usr|g' Makefile || die
 }

@@ -1,4 +1,4 @@
-# Copyright 2021 Gentoo Authors
+# Copyright 2021-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -37,12 +37,12 @@ S="${WORKDIR}/${P}/libretro"
 ASSETS_DIR=/usr/share/libretro/PPSSPP
 
 src_unpack() {
-  git-r3_src_unpack
+	git-r3_src_unpack
 }
 
 src_prepare() {
-  libretro-core_src_prepare
-  sed -i -e 's/"${GIT_VERSION}"/${GIT_VERSION}/' Makefile.common || die "fail"
+	libretro-core_src_prepare
+	sed -i -e 's/"${GIT_VERSION}"/${GIT_VERSION}/' Makefile.common || die "fail"
 }
 
 src_compile() {

@@ -20,15 +20,15 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
 	$(python_gen_cond_dep '
-		dev-python/PyQt5[gui,svg,widgets,${PYTHON_MULTI_USEDEP}]
-		dev-python/PyQtWebEngine[${PYTHON_MULTI_USEDEP}]
-		>=dev-python/httplib2-0.7.4[${PYTHON_MULTI_USEDEP}]
-		dev-python/beautifulsoup4[${PYTHON_MULTI_USEDEP}]
-		dev-python/decorator[${PYTHON_MULTI_USEDEP}]
-		dev-python/markdown[${PYTHON_MULTI_USEDEP}]
-		dev-python/requests[${PYTHON_MULTI_USEDEP}]
-		dev-python/send2trash[${PYTHON_MULTI_USEDEP}]
-		dev-python/jsonschema[${PYTHON_MULTI_USEDEP}]
+		dev-python/PyQt5[gui,svg,widgets,${PYTHON_USEDEP}]
+		dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
+		>=dev-python/httplib2-0.7.4[${PYTHON_USEDEP}]
+		dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+		dev-python/decorator[${PYTHON_USEDEP}]
+		dev-python/markdown[${PYTHON_USEDEP}]
+		dev-python/requests[${PYTHON_USEDEP}]
+		dev-python/send2trash[${PYTHON_USEDEP}]
+		dev-python/jsonschema[${PYTHON_USEDEP}]
 	')
 	recording? ( media-sound/lame )
 	sound? ( media-video/mpv )
@@ -38,7 +38,7 @@ RDEPEND="${PYTHON_DEPS}
 	)
 "
 DEPEND="${RDEPEND}
-	test? ( $(python_gen_cond_dep 'dev-python/nose[${PYTHON_MULTI_USEDEP}]') )
+	test? ( $(python_gen_cond_dep 'dev-python/nose[${PYTHON_USEDEP}]') )
 "
 
 PATCHES=( "${FILESDIR}"/${PN}-2.1.0_beta25-web-folder.patch )
@@ -55,11 +55,11 @@ src_compile() {
 }
 
 src_test() {
-	sed -e "s:nose=nosetests$:nose=\"${EPYTHON} ${EROOT}usr/bin/nosetests\":" \
+	sed -e "s:nose=nosetests$:nose=\"${EPYTHON} ${EROOT%/}/usr/bin/nosetests\":" \
 		-i tools/tests.sh || die
-	sed -e "s:nose=nosetests3$:nose=\"${EPYTHON} ${EROOT}usr/bin/nosetests3\":" \
+	sed -e "s:nose=nosetests3$:nose=\"${EPYTHON} ${EROOT%/}/usr/bin/nosetests3\":" \
 		-i tools/tests.sh || die
-	sed -e "s:which nosetests3:which ${EROOT}usr/bin/nosetests3:" \
+	sed -e "s:which nosetests3:which ${EROOT%/}/usr/bin/nosetests3:" \
 		-i tools/tests.sh || die
 	./tools/tests.sh || die
 }
