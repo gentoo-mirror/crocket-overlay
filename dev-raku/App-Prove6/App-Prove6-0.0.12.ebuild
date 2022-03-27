@@ -14,7 +14,7 @@ KEYWORDS="~amd64"
 RESTRICT="primaryuri"
 RDEPEND="dev-raku/TAP
 	dev-raku/Getopt-Long"
-DOCS="README.md"
+DOCS="README.md Changes"
 
 src_install() {
 	rakudo_src_install
