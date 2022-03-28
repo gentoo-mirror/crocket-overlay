@@ -53,7 +53,7 @@ dev-raku/Inline-Perl5 0.59: Use Perl 5 code in a Raku program
 dev-raku/JSON-Fast 0.17: A naive imperative JSON parser in pure Raku
 dev-raku/System-Query 0.1.6: It collapses JSON dependent upon certain environmental information
 dev-raku/TAP 0.3.5: An asynchronous TAP framework written in Raku.
-dev-raku/zef 0.13.7: Raku / Perl6 Module Management
+dev-raku/zef 0.13.8: Raku / Perl6 Module Management
 games-emulation/blastem-libretro 0.6.2_p20210810: A fast and accurate Genesis emulator
 games-emulation/libretro-common-overlays 1_pre20210930: Collection of overlay files for use with RetroArch
 games-emulation/libretro-database 1.9.10: Cheatcode files, content data files and etc. stuff for RetroArch
