@@ -64,20 +64,13 @@ src_compile() {
 	emake NQP_JARS="${NQP}" BLD_NQP_JARS="${NQP}"
 }
 
-get_rakudo_repo() {
-	func="CompUnit::RepositoryRegistry.repository-for-name"
-	repo=$($D/usr/bin/raku -e "say $func('$1')")
-	echo ${repo#inst#}
-}
-
 src_install() {
 	emake DESTDIR="${D}" NQP_JARS="${NQP}" BLD_NQP_JARS="${NQP}" install
 	# install-dist.raku is required for installing raku modules
-	core=$(get_rakudo_repo core)
-	exeinto "$core/tools"
+	exeinto "/usr/share/perl6/core/tools"
 	doexe tools/install-dist.raku
 	# Make sure directories in site repository are not deleted by emerge
-	site=$(get_rakudo_repo site)
+	site="/usr/share/perl6/site"
 	keepdir "$site/bin"
 	keepdir "$site/dist"
 	keepdir "$site/precomp"
@@ -85,7 +78,7 @@ src_install() {
 	keepdir "$site/short"
 	keepdir "$site/sources"
 	# Make sure directories in vendor repository are not deleted by emerge
-	vendor=$(get_rakudo_repo vendor)
+	vendor="/usr/share/perl6/vendor"
 	keepdir "$vendor/bin"
 	keepdir "$vendor/dist"
 	keepdir "$vendor/precomp"
