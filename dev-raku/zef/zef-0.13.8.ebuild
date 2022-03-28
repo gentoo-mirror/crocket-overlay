@@ -17,7 +17,4 @@ DOCS="README.md"
 src_install() {
 	rakudo_src_install
 	rakudo_symlink_bin zef
-	rakudo_symlink_bin zef-j
-	rakudo_symlink_bin zef-js
-	rakudo_symlink_bin zef-m
 }
