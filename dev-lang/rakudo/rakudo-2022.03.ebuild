@@ -69,22 +69,6 @@ src_install() {
 	# install-dist.raku is required for installing raku modules
 	exeinto "/usr/share/perl6/core/tools"
 	doexe tools/install-dist.raku
-	# Make sure directories in site repository are not deleted by emerge
-	site="/usr/share/perl6/site"
-	keepdir "$site/bin"
-	keepdir "$site/dist"
-	keepdir "$site/precomp"
-	keepdir "$site/resources"
-	keepdir "$site/short"
-	keepdir "$site/sources"
-	# Make sure directories in vendor repository are not deleted by emerge
-	vendor="/usr/share/perl6/vendor"
-	keepdir "$vendor/bin"
-	keepdir "$vendor/dist"
-	keepdir "$vendor/precomp"
-	keepdir "$vendor/resources"
-	keepdir "$vendor/short"
-	keepdir "$vendor/sources"
 }
 
 src_test() {
