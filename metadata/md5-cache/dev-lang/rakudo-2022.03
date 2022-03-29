@@ -13,4 +13,4 @@ RESTRICT=!test? ( test ) primaryuri
 SLOT=0
 SRC_URI=https://rakudo.org/dl/rakudo/rakudo-2022.03.tar.gz
 _eclasses_=java-utils-2	5faae27f317e090a61b74f53f5e0cbc9	java-pkg-opt-2	a71433e535af8faae0c0f6c861a32054
-_md5_=6f90dabf28a991f4e9ae703547e2b191
+_md5_=80b06b161fd0b73df41f29084d5866ec
