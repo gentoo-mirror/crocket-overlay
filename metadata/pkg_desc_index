@@ -73,7 +73,7 @@ games-emulation/retroarch 1.9.13.2: Frontend for emulators, game engines and med
 games-emulation/retroarch-assets 1_pre20211027: Assets needed for RetroArch. Also contains the official branding.
 games-engines/nxengine-evo 2.6.5-r1: rewrite of the Doukutsu Monogatari(Cave Story)
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
-gui-apps/emptty 0.6.2 0.7.0: Dead simple CLI Display Manager on TTY
+gui-apps/emptty 0.7.0 0.7.1: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
