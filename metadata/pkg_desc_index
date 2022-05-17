@@ -40,7 +40,7 @@ dev-python/maturin 0.7.7: Builds wheels from a rust crate for python 3.5+
 dev-python/pyalsaaudio 0.8.4-r1: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r3: Pure-python FIGlet implementation
 dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure python
-dev-python/td-watson 2.0.1-r1: A wonderful CLI to track your time!
+dev-python/td-watson 2.1.0: A wonderful CLI to track your time!
 dev-python/termdown 1.18.0: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
 dev-raku/App-Prove6 0.0.12: Run tests through a TAP harness.
