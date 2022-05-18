@@ -71,7 +71,6 @@ games-emulation/libretro-ppsspp 1.12.3: libretro implementation of PPSSPP
 games-emulation/libretro-slang-shaders 1_pre20210915: Vulkan GLSL RetroArch shaders
 games-emulation/retroarch 1.9.13.2: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20211027: Assets needed for RetroArch. Also contains the official branding.
-games-engines/nxengine-evo 2.6.5-r1: rewrite of the Doukutsu Monogatari(Cave Story)
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
 gui-apps/emptty 0.7.1 0.8.0: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
