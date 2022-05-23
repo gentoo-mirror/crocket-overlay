@@ -5,7 +5,7 @@
 # @MAINTAINER: crocket <748856+crocket@users.noreply.github.com>
 # @BLURB: An eclass for raku modules
 
-EXPORT_FUNCTIONS src_compile src_install src_test pkg_postrm
+EXPORT_FUNCTIONS src_compile src_install src_test
 
 # @ECLASS-VARIABLE: rakudo_test_deps
 # @DESCRIPTION: Packages that shouldn't run tests with dev-raku/App-Prove6
@@ -49,13 +49,4 @@ rakudo_src_install() {
 rakudo_src_test() {
 	[ ${rakudo_test_deps[${CATEGORY}/${PN}]} ] && return
 	prove6 --lib t/ || die
-}
-
-rakudo_pkg_postrm() {
-	# This is a workaround for https://github.com/rakudo/rakudo/issues/4833
-	for repo in site vendor
-	do
-		mkdir -p /usr/share/perl6/$repo/{bin,dist,precomp}
-		mkdir -p /usr/share/perl6/$repo/{resources,short,sources}
-	done
 }
