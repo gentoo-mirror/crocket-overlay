@@ -55,6 +55,7 @@ dev-raku/System-Query 0.1.6: It collapses JSON dependent upon certain environmen
 dev-raku/TAP 0.3.5: An asynchronous TAP framework written in Raku.
 dev-raku/zef 0.13.8: Raku / Perl6 Module Management
 games-emulation/blastem-libretro 0.6.2_p20210810: A fast and accurate Genesis emulator
+games-emulation/dosbox-x 0.83.25-r3: Cross-platform DOS emulation package.
 games-emulation/libretro-common-overlays 1_pre20210930: Collection of overlay files for use with RetroArch
 games-emulation/libretro-database 1.9.10: Cheatcode files, content data files and etc. stuff for RetroArch
 games-emulation/libretro-dolphin 5.0_p20211101: A Gamecube/Wii emulator core for libretro

@@ -17,6 +17,18 @@ dev-lang/rakudo:clang - Use Clang to compile the MoarVM backend
 dev-lang/rakudo:moar - Use the MoarVM as backend
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
+games-emulation/dosbox-x:core-inline - Enable memory-increasing inlines for better performance but requiring more build time
+games-emulation/dosbox-x:dynrec - Use recompiling cpu core instead of dynamic x86/x64 specific cpu core
+games-emulation/dosbox-x:fluidsynth - Use media-sound/fluidsynth for MIDI emulation
+games-emulation/dosbox-x:fpu - Enable FPU emulation
+games-emulation/dosbox-x:freetype - Enable FreeType support
+games-emulation/dosbox-x:midi - Enable MIDI support (with ALSA)
+games-emulation/dosbox-x:mt-32 - Use media-libs/munt-mt32emu for MT-32 emulation
+games-emulation/dosbox-x:printer - Enable printer emulation
+games-emulation/dosbox-x:screenshots - Screenshots and movie recording
+games-emulation/dosbox-x:slirp - Enable libslirp support
+games-emulation/dosbox-x:unaligned - Enable unaligned memory access
+games-emulation/dosbox-x:xbrz - Enable support for xBRZ pixel scaler
 games-emulation/libretro-ppsspp:gles2 - 
 games-emulation/retroarch:cg - Enable Cg shader support
 games-emulation/retroarch:egl - Enable EGL context support
