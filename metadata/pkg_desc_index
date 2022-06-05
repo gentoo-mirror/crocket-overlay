@@ -23,9 +23,6 @@ dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
 dev-lang/janet 1.21.0 1.21.2: A functional and imperative language for scripting and embedding
 dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
-dev-lang/moarvm 2022.03 2022.04: A 6model-based VM for NQP and Raku
-dev-lang/nqp 2022.03 2022.04: Not Quite Perl, a Raku bootstrapping compiler
-dev-lang/rakudo 2022.03 2022.04: A compiler for the Raku programming language
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
 dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
 dev-python/asciimatics 1.13.0: Package for curses-like operations, text UIs and ASCII art animations
@@ -43,17 +40,6 @@ dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure pyt
 dev-python/td-watson 2.1.0: A wonderful CLI to track your time!
 dev-python/termdown 1.18.0: Countdown timer and stopwatch in your terminal
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
-dev-raku/App-Prove6 0.0.12: Run tests through a TAP harness.
-dev-raku/Digest-MD5 0.05_p20170425: MD5 Algorithm
-dev-raku/Distribution-Builder-MakeFromJSON 0.6: Makefile based distribution builder
-dev-raku/File-Directory-Tree 0_pre20220314: Module for creating and deleting directories
-dev-raku/File-Temp 0.0.10: Create temporary files and directories.
-dev-raku/Getopt-Long 0.3.3: A powerful getopt implementation
-dev-raku/Inline-Perl5 0.59: Use Perl 5 code in a Raku program
-dev-raku/JSON-Fast 0.17: A naive imperative JSON parser in pure Raku
-dev-raku/System-Query 0.1.6: It collapses JSON dependent upon certain environmental information
-dev-raku/TAP 0.3.5: An asynchronous TAP framework written in Raku.
-dev-raku/zef 0.13.8: Raku / Perl6 Module Management
 games-emulation/blastem-libretro 0.6.2_p20210810: A fast and accurate Genesis emulator
 games-emulation/dosbox-x 0.83.25-r3: Cross-platform DOS emulation package.
 games-emulation/libretro-common-overlays 1_pre20210930: Collection of overlay files for use with RetroArch
